@@ -1,6 +1,8 @@
-==============================================
-DAHUA
-==============================================
+
+
+--==============================================
+--CAMARAS 
+--==============================================
 
 
 INSERT INTO productos (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
@@ -36,7 +38,7 @@ INSERT INTO productos (producto, descripcion, id_categoria, id_subcategoria, cos
 
 ('DH-HAC-HFW2249TN-A-LED','Cámara tipo bala 4 en 1, HDCVI/CVBS/AHD/TVI, 2MP, Dia/Noche Real, FULL COLOR, luz blanca 20m, chip CMOS 2MP, lente fijo 2.8mm, Micrófono incluido, BLC/HLC/WDR/HLC-Pro IP67, 12VDC-600mA. ',2,5,200858,1);
 
-INSERT INTO productos (nombre, descripcion, categoria, subcategoria, precio) VALUES
+INSERT INTO productos (producto, descripcion, id_categoria, id_subcategoria, costo) VALUES
 ('DH-HAC-T1A21N-U','Cámara tipo domo 4 en 1, HDCVI/CVBS/AHD/TVI, 2 MP(1080p), Dia/Noche Real, IR Smart Led 25m, chip CMOS 1/3", lente fijo 2.8mm, menú OSD sobre coaxial,  2DNR, DWDR, AGC, BLC, HLC, 12VDC-200mA. Plástica.',NULL,NULL,38789),
 ('DH-HAC-T1A21N-U-A','Cámara tipo domo 4 en 1, HDCVI/CVBS/AHD/TVI, 2 MP(1080p), Dia/Noche Real, IR Smart Led 25m, chip CMOS 1/3", lente fijo 2.8mm, Micrófono Incluido, menú OSD sobre coaxial,  2DNR, DWDR, AGC, BLC, HLC, 12VDC-200mA. Plástica.',NULL,NULL,50126),
 ('DH-HAC-T2A21N-U','Cámara tipo domo 4 en 1, HDCVI/CVBS/AHD/TVI, 2 MP(1080p), Dia/Noche Real, IR Smart Led 25m, chip CMOS 1/3", lente fijo 2.8mm, menú OSD sobre coaxial,  2DNR, DWDR, AGC, BLC, HLC, 12VDC-200mA. Metálica',NULL,NULL,56485),
@@ -55,7 +57,7 @@ INSERT INTO productos (nombre, descripcion, categoria, subcategoria, precio) VAL
 --====
 --grabadores
 --====
-INSERT INTO productos (nombre, descripcion, categoria, subcategoria, precio) VALUES
+INSERT INTO productos (nombre, descripcion, categoria, subcategoria, costo) VALUES
 ('DH-XVR1B04-I','XVR 5 en 1, 30fps por 4CH@720p ó 4CH@1080n, soporta tecnología HDCVI/CVBS/AHD/TVI, 1MP, soporta cámaras IP 4+1 CH, cada canal hasta 2MP,  SMD Plus, Soporta Smart Search, salidas simultáneas a monitor HDMI, VGA, audio: 1 entrada/1 salida, CMS(DSS/PSS) & DMSS para visualización a través de Smart Phone: iPhone, iPad, Android. Tecnologia P2P, 2 puertos USB (2.0), H.265+, soporta 1DD SATA X 6TB (No incluido).  Soporta disco duro de Estado Sólido - SSD',7,7,NULL),
 
 ('DH-XVR1B04H-I','XVR 5 en 1, 15fps por 4CH@1080p, soporta tecnología HDCVI/CVBS/AHD/TVI, 2MP, soporta cámaras IP 4+2 CH, cada canal hasta 6MP, SMD Plus,           Soporta Smart Search, salidas simultáneas a monitor HDMI, VGA, audio: 1 entrada/1 salida, CMS(DSS/PSS) & DMSS para visualización a través de Smart Phone: iPhone, iPad, Android. Tecnologia P2P, 2 puertos USB (2.0), Al Coding/H.265+, soporta SSD, soporta 1DD SATA X 16TB    (No incluido). ',7,7,163214),
@@ -89,3 +91,43 @@ INSERT INTO productos (nombre, descripcion, categoria, subcategoria, precio) VAL
 ('DH-XVR5232AN-I3','XVR 5 en 1, 10fps por 32CH@5M-N ó 15fps por 32CH@4M-N/1080p , soporta tecnología HDCVI/CVBS/AHD/TVI, 1MP, 2MP,4M-N y 5MP-N,  soporta cámaras IP 32 CH Ancho de Banda 128 Mbps, SMD Plus, Protección perimetral, Reconocimiento facial, salidas simultáneas a monitor HDMI, VGA, audio: 1 entrada/1 salida, CMS(DSS/PSS) & DMSS para visualización a través de Smart Phone: iPhone, iPad, Android, Tecnologia P2P,  2 puertos USB (2.0), RS485, AI Coding/H.265+, soporta SSD ( No incluido ) soporta 2DD SATA X 16TB (No incluido). ',7,7,NULL),
 
 ('DH-XVR5432L-I3','XVR 5 en 1, 10fps por 32CH@5M-N ó 15fps por 32CH@4M-N/1080p , soporta tecnología HDCVI/CVBS/AHD/TVI, 1MP, 2MP,4M-N y 5MP-N,  soporta cámaras IP 32 CH Ancho de Banda 128 Mbps, SMD Plus, Protección perimetral, Reconocimiento facial, salidas simultáneas a monitor HDMI, VGA, audio: 1 entrada/1 salida, CMS(DSS/PSS) & DMSS para visualización a través de Smart Phone: iPhone, iPad, Android, Tecnologia P2P,  3 puertos USB (2.0), RS485, AI Coding/H.265+, soporta 4DD SATA X 16TB (No incluido). ',7,7,NULL);
+
+--==============================================
+--CAMARAS WIFI
+--==============================================
+
+INSERT INTO productos (nombre, descripcion, categoria, subcategoria, costo) VALUES
+('DH-IPC-HDBW1230DE-SW','Cámara IP domo antivandálica WiFi 2.4G, 2MP, IR 30m, lente 2.8mm, H.265, ranura SD, IP67, IK10, incluye adaptador.',7,6,182569),
+
+('DH-T2A-PV','Cámara IP domo WiFi 2.4G, 2MP, disuasión activa, luz dual inteligente, detección humana, audio bidireccional, IR 30m, H.265, IP67.',7,6,NULL),
+
+('DH-T4A-PV','Cámara IP domo WiFi 2.4G, 4MP, disuasión activa, luz dual inteligente, detección humana, audio bidireccional, IR 30m, H.265, IP67.',7,6,NULL),
+
+('DH-T5A-PV','Cámara IP domo WiFi 6, 5MP, detección humana y de vehículos, luz dual inteligente, audio bidireccional, IR 30m, H.265, IP67.',7,6,183153),
+
+('DH-IPC-HFW1230DSN-SAW-0280B','Cámara IP bala WiFi 2.4G, 2MP, audio bidireccional, IR 30m, lente 2.8mm, H.265, IP67, metálica.',7,6,NULL),
+
+('DH-F2C-PV','Cámara IP bala WiFi, 2MP, Full Color, disuasión activa, luz dual inteligente, audio bidireccional, IR 30m, H.265, IP67.',7,6,NULL),
+
+('DH-F3D-PV','Cámara IP bala WiFi 6, 3MP, Full Color, disuasión activa, audio bidireccional, IR 30m, H.265, ranura micro SD.',7,6,149853),
+
+('DH-F4C-PV','Cámara IP bala WiFi, 4MP, Full Color, disuasión activa, luz dual inteligente, audio bidireccional, IR 30m, H.265, IP67.',7,6,NULL),
+
+('DH-F5D-PV','Cámara IP bala WiFi 6, 5MP, Full Color, disuasión activa, audio bidireccional, IR 30m, H.265, ranura micro SD.',7,6,183153),
+
+('DH-C3A','Cámara WiFi 3MP, IR 10m, audio bidireccional, detección humana, ranura micro SD, H.265, incluye adaptador.',7,6,77701),
+
+('DH-C5A','Cámara WiFi 5MP, IR 10m, audio bidireccional, detección humana, ranura micro SD, H.265, incluye adaptador.',7,6,94352),
+
+('DH-H3A','Cámara WiFi PT 3MP, IR 10m, audio bidireccional, ranura micro SD, H.265, incluye adaptador.',7,6,83252),
+
+('DH-H5A','Cámara WiFi PT 5MP, IR 10m, audio bidireccional, ranura micro SD, H.265, incluye adaptador.',7,6,99902),
+
+('DH-H3B','Cámara WiFi PT 3MP, IR 10m, audio bidireccional, ranura micro SD, H.265, puerto RJ45.',7,6,NULL),
+
+('DH-H5B','Cámara WiFi PT 5MP, IR 10m, audio bidireccional, ranura micro SD, H.265, puerto RJ45.',7,6,116552),
+
+('DH-P3B-PV','Cámara WiFi PT 3MP, Full Color, autotracking, disuasión activa, detección humana, audio bidireccional, IR 30m, IP66.',7,6,149853),
+
+('DH-P5B-PV','Cámara WiFi PT 5MP, Full Color, autotracking, disuasión activa, detección humana, audio bidireccional, IR 30m, IP66.',7,6,177603);
+
