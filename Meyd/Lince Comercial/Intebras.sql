@@ -51,3 +51,7 @@ COMPATIBLE CON BATERÍAS 12V/7A (NO INCLUIDA). PROTOCOLO DE COMUNICACIÓN CONTAC
 
 
 
+--------------------------
+--- Perifericos - ISSUE
+--- line 58
+---------
