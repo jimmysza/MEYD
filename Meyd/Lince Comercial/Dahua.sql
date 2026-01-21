@@ -363,7 +363,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-LS550UCM-BF monitor lcd industrial video wall',
   'Monitor LCD industrial para VIDEO WALL de 55" (16:9), Bisel 3.5 mm,  Resolución 1920×1080 (FHD) , BNC (1), VGA (1), DVI (1), HDMI (1), RS232 (1, USB (1), IR(1)   Procesamiento digital de alta fidelidad, Tiempo de respuesta rápido de 8 ms, Trabajo continuo 24/7. Brillo 500 cd/m².',
-  NULL,
+  2,
   NULL,
   4963452,
   1
@@ -371,7 +371,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-M70-4U-E controladora video wall',
   'Controladora de Video Wall modular 4U, hasta 10 tarjetas de entrada/salida, 6 RJ45 GIGABIT, Soporta 320ch@1080P H.265 señal decodificada (configuracion completa), admite empalme maximo de 60 pantallas, fuente redundante',
-  NULL,
+  2,
   NULL,
   NULL,
   1
@@ -380,7 +380,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
   'Dahua VDC0605H-M70 tarjeta salida hdmi',
   '"Tarjeta de salida HDMI para M70-4U-E, , 6 puertos HDMI, 
 decodificación 8CH@12MP(15fps) /8CH@4K/32CH@1080P/72CH@720P/150CH@D1"',
-  NULL,
+  2,
   NULL,
   5134605,
   1
@@ -388,7 +388,7 @@ decodificación 8CH@12MP(15fps) /8CH@4K/32CH@1080P/72CH@720P/150CH@D1"',
 (
   'Dahua VEC0404HH-M70 tarjeta entrada hdmi',
   'Tarjeta de entrada HDMI para M70-4U-E, 4 puertos HDMI.',
-  NULL,
+  2,
   NULL,
   4278838,
   1
@@ -396,7 +396,7 @@ decodificación 8CH@12MP(15fps) /8CH@4K/32CH@1080P/72CH@720P/150CH@D1"',
 (
   'Dahua YM-2681HBR fuente redundante',
   'Fuente redundante para M70-4U, M70-4U-E, DSCON3000',
-  NULL,
+  2,
   NULL,
   1979385,
   1
@@ -405,7 +405,7 @@ decodificación 8CH@12MP(15fps) /8CH@4K/32CH@1080P/72CH@720P/150CH@D1"',
   'Dahua D6728 L=3000MM modulo receptor ir',
   '"Modulo receptor IR 3.5 mts. Imprescindible para proyectos de videowalls LCD modelos -BF / -EF / -UF.
 Uso con control remoto para operación de cambio de pantalla"',
-  NULL,
+  3,
   NULL,
   13351,
   1
@@ -427,7 +427,7 @@ Incluye.
 (
   'Dahua DH-W-HDMI10M-4K cable hdmi',
   'Cable HDMI 10m macho-macho / 2160p. Compatible con la interfaz estándas HDMI',
-  NULL,
+  3,
   NULL,
   53167,
   1
@@ -489,7 +489,7 @@ Incluye:
 - Soporte de pared × 1
 - Control remoto × 1
  - Tornillos para montaje en pared × 1"',
-  NULL,
+  2,
   NULL,
   6342555,
   1
@@ -503,7 +503,7 @@ Incluye:
 - Soporte de pared × 1
 - Control remoto × 1
  - Tornillos para montaje en pared × 1"',
-  NULL,
+  2,
   NULL,
   7852679,
   1
@@ -517,7 +517,7 @@ Incluye:
 - Soporte de pared × 1
 - Control remoto × 1
  - Tornillos para montaje en pared × 1"',
-  NULL,
+  2,
   NULL,
   9060826,
   1
@@ -560,7 +560,7 @@ Incluye:
 (
   'Dahua DHI-SP-PI5C75IS-ZW modulo ops',
   'Módulo OPS, CPU  Intel® Alder lake-H i5-12450H, 4,40 GHz , Gráficos Intel® UHD para procesadores Intel® de 12.ª generación , 1 x 16 GB DDR4 3200 MHz , 1  SSD de 512 GB 2280, Nvme/SATA, 1 módulo PCIE/USB2.0 de 2230 Mbps, WIFI/BT ,  HDMI 1.4 (1), DP1.2 (1), USB 3.1 (2), USB 2.0 (2), RJ45 (1),  USB 3.1 Tipo-C (1)',
-  NULL,
+  2,
   NULL,
   1842359,
   1
@@ -568,7 +568,7 @@ Incluye:
 (
   'Dahua DHI-SP-PI7C75IS-ZW modulo ops',
   'Módulo OPS, CPU Intel® Alder lake-H i7-12650H，4.70GHz, Gráficos Intel® UHD para procesadores Intel® de 12.ª generación, 1 x 16GB DDR4 3200MHz, 1  SSD de  512GB 2280，Módulo NVMe/SATA, 1  Módulo PCIE/USB 2.0 de 2230 Mbps, Wi-Fi/BT, HDMI 1.4 (1), DP 1.2 (1), USB 3.1 (2), USB 2.0 (2), RJ45 (1), 1 USB 3.1 Tipo-C (1)',
-  NULL,
+  2,
   NULL,
   2083981,
   1
@@ -585,7 +585,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASA1222E-S lector biometrico',
   'Lector  Autonomo Biometrico, Teclado, pantalla LCD, soporta  2.000 huellas y 1.000 usuarios, contraseña, huella digital y la combinación,  TCP / IP, Control de Tiempo y Asistencia, Fuente Incluida.',
-  NULL,
+  2,
   NULL,
   161081,
   1
@@ -599,7 +599,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASI1212F lector biometrico',
   'Lector/Controlador Autonomo Biometrico, Pantalla 2.8",  boton de timbre, Teclado táctil y pantalla LCD, soporte 30.000 tarjetas válidas y 150.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, huella digital y la combinación, TCP / IP, Wiegand o RS-485, Antipassback, P2P.',
-  NULL,
+  2,
   NULL,
   418819,
   1
@@ -607,7 +607,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASI2212J lector biometrico',
   'Lector/Controlador Autonomo Biometrico, Pantalla LCD, soporte 5.000 tarjetas válidas y 100.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, huella digital y la combinación, TCP / IP, Wiegand o RS-485, Uso Interior, Antipassback, P2P, DHCP.',
-  NULL,
+  2,
   NULL,
   238383,
   1
@@ -615,7 +615,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASI2212H-W lector biometrico',
   'Lector/Controlador Autonomo Biometrico, Teclado táctil y pantalla LCD, soporte 30.000 tarjetas válidas y 150.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, huella digital y la combinación, TCP / IP, WI-FI, Wiegand o RS-485, IP65, Antipassback, P2P, DHCP.',
-  NULL,
+  2,
   NULL,
   483243,
   1
@@ -623,7 +623,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASI3203E-W lector biometrico facial',
   'Lector/Controlador Autonomo Biometrico, Teclado táctil y pantalla LCD de 2.4", Cámara doble lente de 2MP soporta 3.000 tarjetas,1.000 usuarios y100.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, rostro y tarjeta, TCP / IP, WI-FI, Wiegand o RS-485, Antipassback, P2P, DHCP. Admite gestión de asistencia web y exportación de informes de asistencia locales',
-  NULL,
+  2,
   NULL,
   289930,
   1
@@ -631,7 +631,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASI3204E-W lector biometrico facial',
   'Lector/Controlador Autonomo Biometrico, Teclado táctil y pantalla LCD de 2.4", Cámara doble lente de 2MP soporta 3.000 tarjetas,1.000 usuarios y100.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, rostro, huella y tarjeta, TCP / IP, WI-FI, Wiegand o RS-485, Antipassback, P2P, DHCP. Admite gestión de asistencia web y exportación de informes de asistencia locales',
-  NULL,
+  2,
   NULL,
   341478,
   1
@@ -646,7 +646,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASI3214A-W terminal control acceso',
   'Terminal de control de Acceso FACT, Pantalla táctil LCD 4.3",  cámara 2mp, soporta reconocmiento de rostro, huella digital, tarjeta, contraseña y combinación, TCP / IP,  RS-485, Antipassback. Para uso interior.',
-  NULL,
+  2,
   NULL,
   483243,
   1
@@ -654,7 +654,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua DHI-ASI6214S-PW terminal control acceso',
   'Terminal de control de Acceso FACT, Pantalla táctil LCD 4.3",  cámara 2mp, soporta reconocmiento de rostro, tarjeta, contraseña, huella digital, Codigo QR y combinación, TCP / IP y WIFI,   Wiegand o RS-485, IP65, Antipassback..',
-  NULL,
+  2,
   NULL,
   592777,
   1
@@ -662,7 +662,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASF053-ZJ soporte montaje',
   'Soporte Montaje. Compatible con ASI6213S-W, ASI6214S-W, ASI7213Y-V3, ASI7214Y-V3, ASI7213X y ASI7214X',
-  NULL,
+  2,
   NULL,
   122371,
   1
@@ -676,7 +676,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASA1222E-S Lector biométrico autónomo con teclado',
   'Lector  Autonomo Biometrico, Teclado, pantalla LCD, soporta  2.000 huellas y 1.000 usuarios, contraseña, huella digital y la combinación,  TCP / IP, Control de Tiempo y Asistencia, Fuente Incluida.',
-  NULL,
+  2,
   NULL,
   161081,
   1
@@ -686,7 +686,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASC2202B-D Controlador de acceso 2 puertas',
   'Controlador DAHUA 2 puertas, RJ45, TCP/IP, RS485/WIEGAND, RTC, soporta múltiples tarjetas, soporta 100.000 tarjetas y 500.000 registros, dispositivo de seguridad multi-puerta, 2 Puertas doble(Lector entrada, Lector de salida), 9-15DC / 500mA, Esclusa, No incluye gabinete',
-  NULL,
+  2,
   NULL,
   NULL,
   1
@@ -697,7 +697,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
   'Dahua ASC2204C-D Controlador de acceso 4 puertas con gabinete',
   'Controlador DAHUA 4 puertas, TCP/IP, RS485/WIEGAND, RTC, soporta múltiples tarjetas, soporta 100.000 tarjetas,3.000 Huellas y 500.000 registros, dispositivo de seguridad multi-puerta, 4 Puertas doble(Lector entrada, Lector de salida),
   100-240 V AC, IP20, IK04, Incluye gabinete',
-  NULL,
+  2,
   NULL,
   902062,
   1
@@ -707,7 +707,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASC2204B-S Controlador de acceso 4 puertas',
   'Controlador DAHUA 4 puertas, TCP/IP, RS485 (5) /WIEGAND (4) (W34/W26) RTC, soporta múltiples tarjetas, soporta 100.000 usuarios, 3.000 huellas, 100.000 tarjetas y 500.000 registros. Combinación de grupo:Desbloqueo de tarjeta/contraseña/huella digital,, Alarma: 1 entrada/1salida, 1 Puero 10/100, IP20, IK04.',
-  NULL,
+  2,
   NULL,
   370471,
   1
@@ -717,7 +717,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASC4204C-D Controlador de acceso 4 puertas avanzado',
   'Controlador DAHUA 4 puertas, TCP/IP, P2P, DHCP, soporta 100.000 usuarios, 10.000 huellas, 100.000 tarjetas y 500.000 registros. Combinación de grupo: Desbloqueo de tarjeta, contraseña, huella dactilar y código QR, 4 Puertas doble (Lector entrada, Lector de salida), RS-485 (9) , Wiegand (8), RJ45 (1) Anti-passback Alarma: 5 entrada/4salida, Uso Interior.',
-  NULL,
+  2,
   NULL,
   902062,
   1
@@ -731,7 +731,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASR1102A V3 Lector de huella y tarjeta Mifare',
   'Lector de Huella Digital y Tarjeta 13,56Mhz Mifare, RS-485, soporta hasta 3000 huellas, Para uso interior',
-  NULL,
+  2,
   NULL,
   251299,
   1
@@ -741,7 +741,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASR1200E Lector de tarjetas Mifare',
   'Lector de tarjetas Mifare 13.56MHz, RS485,Wiegand, IP66',
-  NULL,
+  2,
   NULL,
   48309,
   1
@@ -751,7 +751,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASR1200E-D Lector de tarjetas RFID 125Khz',
   'Lector de tarjetas RFID 125 kHz, RS485, Wiegand,IP66',
-  NULL,
+  2,
   NULL,
   45109,
   1
@@ -761,7 +761,7 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 (
   'Dahua ASR2101H Lector de acceso Mifare con contraseña',
   'Lector de aceso, Soporta tarjetas Mifare 13.56MHz, Contraseña RS485,Wiegand 34, IP66',
-  NULL,
+  2,
   NULL,
   NULL,
   1

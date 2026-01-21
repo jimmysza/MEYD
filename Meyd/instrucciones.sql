@@ -6,9 +6,9 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 - producto → "Lynx" + "referencia del producto" + "breve descripcion del producto" (monitor led, camara, Pantalla interactiva, pedestarl)
 - descripcion → texto TAL CUAL lo enviaste (sin limpiar, sin corregir)
 
-- id_categoria → NULL (ya despues lo cambio)
+- id_categoria →NULL (ya despues lo cambio)
 
-- id_subcategoria → NULL (ya despues lo cambio)
+- id_subcategoria →NULL (ya despues lo cambio)
 
 - costo → número si trae $ NULL si dice Confirmar 
 
@@ -16,5 +16,6 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 
 - id → autoincrement (no se toca)
 
-Analiza la indicada segun la que hay | si no hay indicame para crear
+-----------
 analiza la indicada segun la que hay | si no hay indicame para crear 
+ if "el producto tiene sentido guardarlo en uno de nuestras categoria se pone el id" else 

@@ -23,7 +23,7 @@ id|id_categoria|subcategoria                                |
     3|           2|ALARMAS       
     4|           2|MATERIALES                                  |
     5|           2|CAMARAS      
-                                |
+    
     6|           7|CAMARA                                      |
     7|           7|GRABADORES                                  |
     8|           7|SWICHES                                     |
