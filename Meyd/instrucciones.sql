@@ -19,3 +19,31 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 -----------
 analiza la indicada segun la que hay | si no hay indicame para crear 
  if "el producto tiene sentido guardarlo en uno de nuestras categoria se pone el id" else 
+
+
+
+
+
+
+GUARDA ESTO EN INSTRUCCIONES NO SE TE PUEDE OLVIDAR QUE CUANDO TE PASE LA TABLAS CON LOS PRODUCTOS QUE DEBES SEGUIR Reglas aplicadas para transforma xslm a sql (para que sepas que no improviso) Para TODOS estos productos: 
+
+el excel tiene referencia, descripcion, costo sin iva, costo con iva , precio
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+
+- producto →  "referencia del producto" + "breve descripcion del producto"(monitor led, camara, Pantalla interactiva, pedestarl) + "intrebras" 
+- descripcion → texto TAL CUAL lo enviaste (sin limpiar, sin corregir)
+
+- id_categoria →NULL (ya despues lo cambio)
+
+- id_subcategoria →NULL (ya despues lo cambio)
+
+- costo → es el primer valor y segundo con $ - son el costo sino q esta duplicado, NULL si dice Confirmar 
+
+- precio → es el terer valor con $, NULL si dice Confirmar 
+
+- id → autoincrement (no se toca)
+
+-----------
+analiza la indicada segun la que hay | si no hay indicame para crear 
+ if "el producto tiene sentido guardarlo en uno de nuestras categoria se pone el id" else 

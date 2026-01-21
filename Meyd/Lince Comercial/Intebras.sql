@@ -55,3 +55,1350 @@ COMPATIBLE CON BATERÍAS 12V/7A (NO INCLUIDA). PROTOCOLO DE COMUNICACIÓN CONTAC
 --- Perifericos - ISSUE
 --- line 58
 ---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAS SMART contacto magnético inalámbrico intrebras',
+  'CONTACTO MAGNÉTICO INALÁMBRICO. COMPATIBLE CON ANM 24 NET, AMT 1000, AMT 2018, AMT-4010',
+  2,
+  20,
+  33700,
+  45100
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 1000 PET SMART sensor de movimiento PIR intrebras',
+  'SENSOR DE MOVIMIENTO INFRARROJO PASIVO INALÁMBRICO ANTI MASCOTA DE HASTA 20KG, USO INTERIOR. COMPATIBLE CON ANM 24 NET, AMT 1000, AMT 2018, AMT-4010',
+  2,
+  20,
+  61900,
+  82700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 5000 SMART LD sensor de movimiento PIR intrebras',
+  'SENSOR DE MOVIMIENTO INFRARROJO PASIVO INALÁMBRICO ANTIMASCOTA DE HASTA 15KG, USO INTERIOR, COMPATIBLE CON ANM 24 NET, AMT 1000, AMT 2018, AMT-4010',
+  2,
+  20,
+  81000,
+  108000
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 7000 SMART EX sensor doble tecnología intrebras',
+  'SENSOR DE MOVIMIENTO DOBLE TECNOLOGÍA (PIR - MICROONDAS), ANTIMASCOTA DE HASTA 30KG, USO INTERIOR O EXTERIOR (IP54)',
+  2,
+  20,
+  199200,
+  265600
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'TX 4020 SMART transmisor inalámbrico intrebras',
+  'TRANSMISOR INALÁMBRICO UNIVERSAL DISEÑADO PARA BRINDAR A LOS SENSORES CON CABLE LA FACILIDAD DE TENER UNA COMUNICACIÓN INALÁMBRICA. COMPATIBLE CON ANM 24 NET, AMT 1000, AMT 2018, AMT-4010',
+  2,
+  23,
+  28000,
+  37400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAR 3060 UN receptor inalámbrico intrebras',
+  'RECEPTOR UNIVERSAL INALÁMBRICO, 2 SALIDAS INDEPENDIENTES DE FORMA C, 2 MODOS DE OPERACIÓN (PULSO O RETENCIÓN), CAPACIDAD PARA 60 DISPOSITIVOS INALÁMBRICOS.',
+  2,
+  23,
+  70200,
+  93600
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAC 4003 SMART control remoto intrebras',
+  'CONTROL REMOTO 3 BOTONES, COMPATIBLE CON CERCOS ELÉCTRICOS, PANELES AMT 1000, AMT 2018, AMT 4010 Y XAR 3060 UN',
+  2,
+  21,
+  21600,
+  28900
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAC 4004 SMART control remoto intrebras',
+  'CONTROL REMOTO 4 BOTONES, COMPATIBLE CON CERCOS ELÉCTRICOS, PANELES AMT 1000, AMT 2018, AMT 4011',
+  2,
+  21,
+  22100,
+  29500
+);
+
+
+
+--------------------------
+--- PERIFERICOS CABLEADOS
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 1000 PET sensor movimiento infrarrojo intrebras',
+  'SENSOR DE MOVIMIENTO INFRARROJO PASIVO ANTI MASCOTA DE HASTA 20KG, USO INTERIOR. COMPATIBLE CON PANELES CABLEADOS INTELBRAS Y OTRAS MARCAS.',
+  2,
+  3,
+  31800,
+  42600
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 5002 PET sensor movimiento doble pir intrebras',
+  'SENSOR DE MOVIMIENTO DE DOBLE PIR ANTI MASCOTA HASTA 35KG, USO INTERIOR.',
+  2,
+  3,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 3011 CORTINA sensor movimiento pir intrebras',
+  'SENSOR DE MOVIMIENTO PIR TIPO CORTINA, IDEAL PARA PASILLOS, ESCALERAS O AUTOMATIZACIÓN DE PUERTAS, USO INTERIOR.',
+  2,
+  3,
+  34400,
+  57400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 3011 TETO sensor movimiento techo intrebras',
+  'SENSOR DE MOVIMIENTO PIR DE 360° PARA TECHO.',
+  2,
+  3,
+  76000,
+  101400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 5000 LD sensor movimiento infrarrojo intrebras',
+  'SENSOR DE MOVIMIENTO INFRARROJO PASIVO ANTIMASCOTA DE HASTA 15KG, USO INTERIOR, COMPATIBLE CON PANELES CABLEADOS INTELBRAS Y OTRAS MARCAS',
+  2,
+  3,
+  36900,
+  49400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 5000 MW LD sensor movimiento microondas intrebras',
+  'SENSOR DE MOVIMIENTO DOBLE TECNOLOGIA CON MICROONDAS CABLEADO COMPATIBLE CON PANELES CABLEADOS INTELBRAS Y OTRAS MARCAS',
+  2,
+  3,
+  108700,
+  145000
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 7000 MW MASK LD sensor doble tecnologia intrebras',
+  'SENSOR DE MOVIMIENTO DOBLE TECNOLOGÍA (PIR - MICROONDAS), ANTIMASCOTA DE HASTA 20KG, USO INTERIOR O EXTERIOR',
+  2,
+  3,
+  123500,
+  164700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 7000 MW EX sensor doble tecnologia exterior intrebras',
+  'SENSOR DE MOVIMIENTO DOBLE TECNOLOGÍA (PIR - MICROONDAS), ANTI MASCOTA DE HASTA 30KG, USO INTERIOR O EXTERIOR (IP54)',
+  2,
+  3,
+  198600,
+  264900
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 9000 MW MASK sensor microondas intrebras',
+  'SENSOR DE MOVIMIENTO MICROONDAS CON ANTI CAMUFLAJE, ANTI-MASKING, ANTI-MANIPULACIÓN, COMPENSACIÓN DE TEMPERATURA AUTOMÁTICA, INMUNIDAD RFI/EMI, ALCANCE 18M, ANTI MASCOTAS DE HASTA 10K, TAMPER Y ACELERÓMETRO.',
+  2,
+  3,
+  218900,
+  292000
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAS SOBREPOR contacto magnetico cableado intrebras',
+  'MINI SENSOR MAGNÉTICO CABLEADO, IDEAL PARA TAMPER CON EL PANEL AMT 1000 Y AMT 2018 (PAQUETE DE 5 UNIDADES)',
+  2,
+  3,
+  46800,
+  62500
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'SIR 1000 sirena cableada intrebras',
+  'SIRENA CABLEADA DE 1 TONO, 105 DB. ALIMENTACIÓN 9 ~ 15 VDC, CONSUMO DE CORRIENTE 0,2 A.',
+  2,
+  3,
+  16600,
+  22300
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'SIR 2000 sirena cableada intrebras',
+  'SIRENA CABLEADA DE 1 TONO, 115 DB. ALIMENTACIÓN 9 ~ 15 VDC, CONSUMO DE CORRIENTE 1 A.',
+  2,
+  3,
+  32700,
+  43700
+);
+
+--------------------------
+--- PANEL INALMBRICO 8000
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'AMT-8000 LITE panel alarma inalambrico intrebras',
+  'PANEL DE ALARMA INALÁMBRICO DE 64 ZONAS, INCLUYE COMUNICADOR ETHERNET, BATERÍAS, FUENTE DE PODER Y SIRENA.',
+  2,
+  3,
+  485500,
+  647200
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'AMT 8000 panel alarma inalambrico intrebras',
+  'PANEL DE ALARMA, 64 ZONAS INALÁMBRICAS, INCLUYE BATERÍA, FUENTE DE PODER Y COMUNICADOR ETHERNET Y WIFI.',
+  2,
+  3,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'AMT 8000 PRO panel alarma inalambrico intrebras',
+  'PANEL DE ALARMA, 64 ZONAS INALÁMBRICAS, INCLUYE SIRENA, FUENTE DE PODER Y COMUNICADOR ETHERNET Y WIFI',
+  2,
+  3,
+  477400,
+  636400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'BATERIA 18650 3.7V bateria panel alarma intrebras',
+  'BATERIA RECARGABLE PARA PANELES SERIE 8000  3,7V CON CONECTOR UNIVERSAL',
+  2,
+  3,
+  23500,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAT 8000 EXP teclado inalambrico alarma intrebras',
+  'TECLADO INALAMBRICO PARA PANEL DE ALARMA AMT-8000, HASTA 16 TECLADOS. MAXIMO 600 METROS LINEA DE VISTA O 1200 METROS LINEA DE VISTA USANDO REPETIDOR.',
+  2,
+  3,
+  225800,
+  301100
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 8000 PET sensor inalambrico alarma intrebras',
+  'SENSOR PASIVO INALÁMBRICO PARA INTERIOR, ANTI MASCOTA DE HASTA 20KG. COMPATIBLE CON PANELES SERIE 8000',
+  2,
+  3,
+  107800,
+  143900
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'IVP 8000 EX sensor inalambrico exterior intrebras',
+  'SENSOR PASIVO INALÁMBRICO PARA EXTERIOR, INCORPORA DOS CANALES PIR Y FUNCIÓN PET HASTA 30KG. COMUNICACIÓN BIDIRECCIONAL CON FUNCIÓN ANTI SABOTAJE POR INCLINACIÓN. COMPATIBLE CON PANELES SERIE 8000',
+  2,
+  3,
+  218700,
+  291700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'REP 8000 repetidor inalambrico alarma intrebras',
+  'REPETIDOR INALÁMBRICO, MÁXIMO 4 POR PANEL, CONEXIÓN INALÁMBRICA AL PANEL. EXTIENDE LA SEÑAL INALÁMBRICA 600 METROS LÍNEA DE VISTA. COMPATIBLE CON PANELES SERIE 8000',
+  2,
+  3,
+  207600,
+  276800
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAC 8000 EXP control remoto alarma intrebras',
+  'CONTROL REMOTO NEGRO. ALCANCE DE HASTA 200M LÍNEA DE VISTA. MÁXIMO 98 CONTROLES POR PANEL. COMPATIBLE CON PANEL AMT 8000',
+  2,
+  3,
+  64600,
+  86200
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAS 8000 sensor magnetico inalambrico intrebras',
+  'SENSOR MAGNÉTICO INALÁMBRICO. COMPATIBLE CON PANEL AMT 8000',
+  2,
+  3,
+  67000,
+  89400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XSS 8000 sirena inalambrica alarma intrebras',
+  'XSS 8000. SIRENA INALAMBRICA PARA PANEL DE ALARMA AMT-8000, USA BATERÍA ER 34615M (INCLUIDA), HASTA 1000 METROS LINEA DE VISTA',
+  2,
+  3,
+  201900,
+  269300
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'BATERIA ER 34615 3.6V bateria sirena intrebras',
+  'BATERIA NO RECARGABLE PARA SIRENAS INALAMBRICAS XSS 8000  3,6V CON CONECTOR UNIVERSAL',
+  2,
+  3,
+  122500,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'TX 8000 transmisor universal alarma intrebras',
+  'TRANSMISOR UNIVERSAL, ENTRADA DE CONTACTO SECO NC PARA SENSORES CABLEADOS. COMPATIBLE CON PANELES SERIE 8000',
+  2,
+  3,
+  73500,
+  98100
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'PGM 8000 modulo expansor alarma intrebras',
+  'MODULO EXPANSOR DE PGM INALÁMBRICO, EXPANSIÓN DE 1 SALIDA PGM (SALIDA CONTACTO SECO), BATERÍA DE ENERGÍA RF EN CASO DE FALLA DE ENERGÍA.',
+  2,
+  3,
+  149300,
+  199100
+);
+
+--------------------------
+--- COMNICADORES
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XE 4000 SMART modulo comunicacion ethernet intrebras',
+  'MÓDULO DE COMUNICACIÓN ETHERNET. COMPATIBLE CON PANEL AMT-4010.',
+  2,
+  3,
+  87000,
+  145000
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XEG 4010 3G EXP modulo comunicacion ethernet 3g intrebras',
+  'MÓDULO DE COMUNICACIÓN ETHERNET Y 3G. COMPATIBLE CON PANEL AMT-4010. INCLUYE ANTENA.',
+  2,
+  3,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XG 4G modulo comunicacion 4g alarma intrebras',
+  'MÓDULO DE COMUNICACIÓN 4G COMPATIBLE CON AMT 1000 SMART, AMT 2018 E SMART, AMT 8000 LITE AMT 8000 PRO . SOPORTA DOBLE SIMCARD DE CUALQUIER OPERADOR. COMPATIBLE CON RECEPTOR DE EVENTOS INTELBRAS Y SOFTWARE DE MONITOREO HOMOLOGADOS. INCLUYE ANTENA.',
+  2,
+  3,
+  271300,
+  361700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'FXO 8000 EXP modulo linea telefonica alarma intrebras',
+  'MÓDULO DE LÍNEA TELEFÓNICA MODO DE MARCACIÓN DTMF, SOPORTA PROTOCOLO CONTACT ID. SOPORTA 8 NÚMEROS TELEFÓNICOS (2 PARA LA CENTRAL DE MONITOREO, 1 PARA DOWNLOAD Y 5 PARA TELÉFONOS PERSONALES) COMPATIBLE CON PANELES AMT 8000 Y AMT 8000PRO',
+  2,
+  3,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'XAG 8000 3G EXP modulo 3g alarma intrebras',
+  'MODULO 3G PARA CENTRAL DE ALARMA. SOPORTA DOBLE SIM CARD. COMPATIBLE CON PANEL AMT 8000',
+  2,
+  3,
+  NULL,
+  NULL
+);
+
+
+--------------------------
+--- KIT PROMOCIONALES
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('KIT-AMT 1000 SMART CON CAJA kit alarma intrebras',
+ 'KIT ALARMA INALÁMBRICA 24 ZONAS. INCLUYE. AMT 1000 SMART X1, XAC 4003 SMART X1, IVP 1000 PET SMART X1, XAS SMART X1, SIR 1000 X1,CAJA TIPO MALETIN X1.',
+ NULL, NULL, NULL, NULL),
+
+('KIT AMT 1000 SMART kit alarma intrebras',
+ 'KIT ALARMA INALÁMBRICA 24 ZONAS. INCL. AMT 1000 SMART X1,XAS SMART X1,IVP 1000 PET SMART X1,XAC 4003 SMART X1,SIR 2000 X1, BATERIA 12/7 X1.',
+ NULL, NULL, 426300, 568300),
+
+('KIT AMT 1000 SMART - 4G kit alarma intrebras',
+ 'KIT ALARMA INALÁMBRICA 24 ZONAS. INCL. AMT 1000 SMART X1,XAS SMART X1,IVP 1000 PET SMART X1,XAC 4003 SMART X1,SIR 2000 X1,XG 4G X1,BATERIA 12/7 X1.',
+ NULL, NULL, 673800, 898300),
+
+('KIT AMT 2018 E SMART kit alarma intrebras',
+ 'KIT ALARMA AMT INALÁMBRICA  INCLUYE AMT 2018 E SMART X1, SIR 2000 X1, XAS SMART X1, XAC 4003 SMART X1, IVP 1000 PET SMART X1, BATERIA 12V-7A X1.',
+ NULL, NULL, 503600, 671400),
+
+('KIT-AMT 2018 E SMART 4G kit alarma intrebras',
+ 'KIT ALARMA AMT INALÁMBRICA  INCLUYE AMT 2018 E SMART X1, SIR 2000 X1, XAS SMART X1, XAC 4003 SMART X1, IVP 1000 PET SMART X1, XG 4G X1, BATERIA 12V-7A X1.',
+ NULL, NULL, 751100, 1001200),
+
+('KIT-AMT4010-3G kit alarma intrebras',
+ 'KIT CABLEADO INC. INCLUYE AMT-4010 SMART X1, XAT 4000 LCD X1,XAR 4000 SMART X1,XAS SMART X1,IVP 1000 PET SMART X1,XAC 4003 SMART X1, XEG 4010 3G EXP X1',
+ NULL, NULL, NULL, NULL),
+
+('KIT-AMT 4010 C3G kit alarma intrebras',
+ 'KIT CABLEADO INC. INCLUYE AMT-4010 SMART X1, SIR 1000 X1, XEG 4010 3G X1,IVP 1000 PET X1,CONTACTO MAGNETICO LIVIANO X1,PULSADOR ANTIATRACO X1, BATERIA 12V-7A X1.',
+ NULL, NULL, 806500, 1075100),
+
+('KIT-AMT8000 kit alarma intrebras',
+ 'KIT INALAMBRICO 64 ZONAS INC. AMT-8000 X1,XSS 800 X1,XAS 8000 X1,XAC 8000 X1,IVP 8000 PET X1',
+ NULL, NULL, NULL, NULL),
+
+('KIT AMT8000-3G kit alarma intrebras',
+ 'KIT INALAMBRICO 64 ZONAS INC. AMT-8000 X1,XSS 800 X1,XAS 8000 X1,XAC 8000 X1,IVP 8000 PET X1, XAG 8000 3G',
+ NULL, NULL, NULL, NULL),
+
+('KIT AMT 8000 LITE kit alarma intrebras',
+ 'KIT INALAMBRICO 64 ZONAS INC. AMT-8000 LITE X1,XAS 8000 X1,XAC 8000 X1,IVP 8000 PET X1',
+ NULL, NULL, NULL, NULL),
+
+('KIT-AMT 8000 LITE 4G kit alarma intrebras',
+ 'KIT INALAMBRICO 64 ZONAS INC. AMT-8000 LITE X1,XG 4G X1,XAS 8000 X1,XAC 8000 X1,IVP 8000 PETX1',
+ NULL, NULL, NULL, NULL),
+
+('KIT-OR-INTELBRAS kit operador remoto intrebras',
+ 'KIT OPERADOR REMOTO INC. RECEPTOR + DOS CONTROLES. 2 Relés, 2 Modos de Programación, Admite hasta 60 Controles',
+ NULL, NULL, 104600, 139600);
+
+
+--------------------------
+--- BARRERAS FOTOELECTRICAS
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('IVA 5015 DIGITAL barrera fotoeléctrica intrebras',
+ 'BARRERA FOTOELÉCTRICA DE 1 HAS, 30M EXTERIOR, 15M INTERIOR, GRADO DE PROTECCIÓN IP55',
+ NULL, NULL, 58700, 78400),
+
+('IVA 3070 X barrera fotoeléctrica intrebras',
+ 'BARRERA FOTOELÉCTRICA DE 2 HACES, 70M EXTERIOR, 190M INTERIOR, GRADO DE PROTECCIÓN IP54.',
+ NULL, NULL, 142000, 189300),
+
+('IVA 7100 QUAD barrera fotoeléctrica intrebras',
+ 'BARRERA FOTOELÉCTRICA DE 4 HACES, 100M CON CABLE SINC - 60 METROS SIN CABLE SINC, ARTICULACIÓN HORIZONTAL DE 360°,  2 CANALES DE FRECUENCIA PARA APILAMIENTO, GRADO DE PROTECCIÓN IP65.',
+ NULL, NULL, 232100, 309400),
+
+('IVA 7100 HEXA barrera fotoeléctrica intrebras',
+ 'BARRERA FOTOELÉCTRICA DE 6 HACES, 100M CON CABLE SINC - 60 METROS SIN CABLE SINC, ARTICULACIÓN HORIZONTAL DE 360°,  2 CANALES DE FRECUENCIA PARA APILAMIENTO, GRADO DE PROTECCIÓN IP65',
+ NULL, NULL, 308800, 411800),
+
+('IVA 7100 OCTA barrera fotoeléctrica intrebras',
+ 'BARRERA FOTOELÉCTRICA DE 8 HACES, 100M CON CABLE SINC - 60 METROS SIN CABLE SINC, ARTICULACIÓN HORIZONTAL DE 360°,  2 CANALES DE FRECUENCIA PARA APILAMIENTO, GRADO DE PROTECCIÓN IP65',
+ NULL, NULL, 357100, 476000),
+
+('IVA 8040 AT barrera fotoeléctrica intrebras',
+ 'BARRERA FOTOELÉCTRICA INALAMBRICA DE 2 HACES CON SOPORTE ARTICULADO QUE SE ADAPTA A CUALQUIER INSTALACION, 40M EXT, 60M INT, GRADO DE PROTECCIÓN IP55, COMPATIBLE AMT-8000/AMT-8000 LITE/AMT-8000 PRO',
+ NULL, NULL, 572200, 762800);
+
+--------------------------
+--- cifononia
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('IPR 8010 citófono residencial intrebras',
+ 'CITÓFONO RESIDENCIAL, CITÓFONO (EXTERNO) + TELÉFONO (INTERNO), ABRE HASTA 2 CERRADURAS ELÉCTRICAS (12 V) Y RELÉ (NA O NC), INSTALACIÓN CON SÓLO 2 CABLES ENTRE MÓDULO EXTERNO Y MÓDULO INTERNO. SOPORTA UN TOTAL DE 3 TELÉFONOS INTERNOS IPR 8000 IN.',
+ NULL, NULL, 134300, 179100),
+
+('IPR8000 IN teléfono interno intrebras',
+ 'TELÉFONO (INTERNO), ABRE HASTA 2 CERRADURAS ELÉCTRICAS (12 V) Y RELÉ (NA O NC). SOLO COMPATIBLE CON IPR 8010.',
+ NULL, NULL, 67000, 89400);
+
+
+--------------------------
+--- 
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('IVW 3000+ kit video portero wifi intrebras',
+ 'KIT VIDEO PORTERO WIFI COMPATIBLE CON MOTOR DE AUTOMATIZACIÓN TUYA. INCLUYE RELÉ INALÁMBRICO Y SIRENA INALÁMBRICA. FUNCIONES REMOTAS VÍA WIFI (2.4GHZ) A TRAVÉS DE LA APLICACIÓN IZZY SMART, INSTALACIÓN Y CONFIGURACIÓN PLUG & PLAY, DETECCIÓN DE MOVIMIENTO, GRABADO DE FOTO Y VIDEO, SOPORTA TARJETA MICRO-SD: 8 A 128GB (NO INCLUIDA), VISUALIZACIÓN NOCTURNA, CÁMARA DE 2MP (CMOS 1/4"), ÁNGULO DE VISIÓN 130°, GRADO DE PROTECCIÓN IP54.',
+ NULL, NULL, NULL, NULL),
+
+('COLLECTIVE 4I central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA COLECTIVA, 4 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA, INSTALACIÓN DIRECTA A LA RED AC (100 – 240 V AUTOMÁTICO), ALTAVOZ HALF DÚPLEX, LLAMADAS ENTRE EXTENSIONES. COMPATIBLE CON TERMINAL TDMI 300  Y TP 2000',
+ NULL, NULL, 360300, 480300),
+
+('COLLECTIVE 8I central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA COLECTIVA, 8 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA, INSTALACIÓN DIRECTA A LA RED AC (100 – 240 V AUTOMÁTICO), ALTAVOZ HALF DÚPLEX, LLAMADAS ENTRE EXTENSIONES. COMPATIBLE CON TERMINAL TDMI 300  Y TP 2000',
+ NULL, NULL, 388800, 518400),
+
+('COLLECTIVE 12I central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA COLECTIVA, 12 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA, INSTALACIÓN DIRECTA A LA RED AC (100 – 240 V AUTOMÁTICO), ALTAVOZ HALF DÚPLEX, LLAMADAS ENTRE EXTENSIONES. COMPATIBLE CON TERMINAL TDMI 300  Y TP 2000',
+ NULL, NULL, 404500, 539300),
+
+('COLLECTIVE 16I central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA COLECTIVA, 16 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA, INSTALACIÓN DIRECTA A LA RED AC (100 – 240 V AUTOMÁTICO), ALTAVOZ HALF DÚPLEX, LLAMADAS ENTRE EXTENSIONES. COMPATIBLE CON TERMINAL TDMI 300  Y TP 2000',
+ NULL, NULL, 486000, 647800),
+
+('COLLECTIVE 20I central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA COLECTIVA, 20 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA, INSTALACIÓN DIRECTA A LA RED AC (100 – 240 V AUTOMÁTICO), ALTAVOZ HALF DÚPLEX, LLAMADAS ENTRE EXTENSIONES. COMPATIBLE CON TERMINAL TDMI 300  Y TP 2000',
+ NULL, NULL, 537200, 716100),
+
+('COLLECTIVE 24I central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA COLECTIVA, 24 BOTONES PARA COMUNICACIÓN DIRECTA CON LOS MÓDULOS INTERNOS (EXTENSIONES), LECTOR DE PROXIMIDAD RFID (MIFARE) PARA APERTURA DE CERRADURA, INSTALACIÓN DIRECTA A LA RED AC (100 – 240 V AUTOMÁTICO), ALTAVOZ HALF DÚPLEX, LLAMADAS ENTRE EXTENSIONES. COMPATIBLE CON TERMINAL TDMI 300  Y TP 2000',
+ NULL, NULL, 595100, 793300);
+
+
+
+--------------------------
+--- ANALOGIA MODULAR
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('COMUNIC 16 central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA. HASTA 16 EXTENSIONES (APTOS), ALIMENTACIÓN A 110VAC,CON CAPACIDAD HASTA 2 TARJETAS BALANCEADAS O DESBALANCEADAS DE 8 EXTENSIONES C/U (NO INCLUIDAS).',
+ NULL, NULL, 288200, 384200),
+
+('COMUNIC 48 central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA. HASTA 16 EXTENSIONES (APTOS), ALIMENTACIÓN A 110VAC,CON CAPACIDAD HASTA 4 TARJETAS BALANCEADAS O DESBALANCEADAS DE 8 EXTENSIONES C/U (NO INCLUIDAS).',
+ NULL, NULL, 424600, 566100),
+
+('8 RM CM 16/48 DESBAL tarjeta extensiones intrebras',
+ 'TARJETA DESBALANCEADA DE 8 EXTENSIONES COMPATIBLE ÚNICAMENTE PARA COMUNIC 16 Y 48. USAR CUANDO LA DISTANCIA ENTRE LA CENTRAL TELEFÓNICA Y TERMINALES ES MENOR A 250 METROS.',
+ NULL, NULL, 89900, 120000),
+
+('8 RM CM 16/48 BAL tarjeta extensiones intrebras',
+ 'TARJETA BALANCEADA DE 8 EXTENSIONES COMPATIBLE ÚNICAMENTE PARA COMUNIC 16 Y 48. USAR CUANDO LA DISTANCIA ENTRE LA CENTRAL TELEFÓNICA Y TERMINALES ES MENOR A 2500 METROS.',
+ NULL, NULL, 141900, 189300),
+
+('CP 112 central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA. HASTA 112 EXTENSIONES (APTOS), ALIMENTACIÓN A 110VAC, CON CAPACIDAD HASTA 7 TARJETAS BALANCEADAS O DESBALANCEADAS DE 16 EXTENSIONES C/U (NO INCLUIDAS).',
+ NULL, NULL, 605700, 807500),
+
+('16 RM CP 48/112 DESBAL tarjeta extensiones intrebras',
+ 'TARJETA DESBALANCEADA DE 16 EXTENSIONES COMPATIBLE ÚNICAMENTE PARA CP 112. USAR CUANDO LA DISTANCIA ENTRE LA CENTRAL TELEFÓNICA Y TERMINALES ES MENOR A 250 METROS.',
+ NULL, NULL, 200500, 267400),
+
+('16 RM CP 48/112 BAL tarjeta extensiones intrebras',
+ 'TARJETA BALANCEADA DE 16 EXTENSIONES COMPATIBLE ÚNICAMENTE PARA CP 112., USAR CUANDO LA DISTANCIA ENTRE LA CENTRAL TELEFÓNICA Y TERMINALES ES MENOR A 2500 METROS.',
+ NULL, NULL, 332300, 443000),
+
+('4920441 tarjeta servicio citofonia intrebras',
+ 'TARJETA LTS CP 48/CP 112 (C/ EMB). TARJETA DE SERVICIO, BRINDA DOS LÍNEAS TRONCALES ANÁLOGAS.',
+ NULL, NULL, 147100, 196100),
+
+('CP 192 central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA. HASTA 192 EXTENSIONES (APTOS), ALIMENTACIÓN A 110VAC, CON CAPACIDAD HASTA 6 TARJETAS BALANCEADAS O DESBALANCEADAS DE 32 EXTENSIONES C/U (NO INCLUIDAS).',
+ NULL, NULL, 1234600, 1645700),
+
+('CP 352 central citofonia intrebras',
+ 'CENTRAL DE CITOFONÍA. HASTA 356 EXTENSIONES (APTOS), ALIMENTACIÓN A 110VAC, CON CAPACIDAD HASTA 11 TARJETAS BALANCEADAS O DESBALANCEADAS DE 32 EXTENSIONES C/U (NO INCLUIDAS).',
+ NULL, NULL, 1287600, 1716400),
+
+('32 RM CP 192/352 BAL tarjeta extensiones intrebras',
+ 'TARJETA BALANCEADA DE 32 EXTENSIONES COMPATIBLE ÚNICAMENTE PARA CP 192/352. USAR CUANDO LA DISTANCIA ENTRE LA CENTRAL TELEFÓNICA Y TERMINALES ES MENOR A 2500 METROS.',
+ NULL, NULL, 654400, 872400),
+
+('32 RM CP 192/352 DESBAL tarjeta extensiones intrebras',
+ 'TARJETA DESBALANCEADA DE 32 EXTENSIONES COMPATIBLE ÚNICAMENTE PARA CP 192/352. USAR CUANDO LA DISTANCIA ENTRE LA CENTRAL TELEFÓNICA Y TERMINALES ES MENOR A 250 METROS.',
+ NULL, NULL, 434900, 579900),
+
+('CP 192/352 tarjeta interconexion citofonia intrebras',
+ 'TARJETA DE INTERCONEXIÓN PARA CENTRALES DE CITOFONIA CP 192/352',
+ NULL, NULL, NULL, NULL);
+
+--------------------------
+--- TELEFONIA
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'TDMI 300 Teléfono citofonía intrebras',
+  'TELÉFONO PARA CENTRAL DE CITOFONÍA BLANCO, CON TECLA DE MARCACIÓN RÁPIDA PARA REALIZAR LLAMADAS DIRECTAS AL PORTERO EN LA CASETA DE VIGILANCIA Y BOTÓN DE APERTURA RÁPIDA DE PUERTA.COMPATIBLE CON LAS LÍNEAS COLLECTIVE, COMUNIC Y CP. NO REQUIERE ALIMENTACIÓN EXTERNA.',
+  NULL,
+  NULL,
+  43800,
+  58500
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'TDMI 300 PRETO Teléfono citofonía intrebras',
+  'TELÉFONO PARA CENTRAL DE CITOFONÍA NEGRO, CON TECLA DE MARCACIÓN RÁPIDA PARA REALIZAR LLAMADAS DIRECTAS AL PORTERO EN LA CASETA DE VIGILANCIA Y BOTÓN DE APERTURA RÁPIDA DE PUERTA.COMPATIBLE CON LAS LÍNEAS COLLECTIVE, COMUNIC Y CP. NO REQUIERE ALIMENTACIÓN EXTERNA.',
+  NULL,
+  NULL,
+  46000,
+  61400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  '4502000 TP 2000 Terminal de portería intrebras',
+  'TERMINAL DE PORTERIA COMPATIBLE CON LA LÍNEA COLLECTIVE, COMUNIC Y CP (REEMPLAZO DEL TC 60 ID)',
+  NULL,
+  NULL,
+  105500,
+  140700
+);
+
+
+--------------------------
+--- KITS PROMOCIONALES
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COLLECTIVE 4 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COLLECTIVE 4i  + TDMI 300 X 4 +TH 2000 MF X 8',
+  NULL,
+  NULL,
+  499800,
+  666400
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COLLECTIVE 8 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COLLECTIVE 8i  + TDMI 300 X 8 +TH 2000 MF X 16',
+  NULL,
+  NULL,
+  735300,
+  980200
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COLLECTIVE 12 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COLLECTIVE 12i  + TDMI 300 X 12 +TH 2000 MF X 24',
+  NULL,
+  NULL,
+  939700,
+  1252700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COLLECTIVE 16 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COLLECTIVE 16i  + TDMI 300 X 16 +TH 2000 MF X 32',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COLLECTIVE 20 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COLLECTIVE 20i  + TDMI 300 X 20 +TH 2000 MF X 40',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COLLECTIVE 24 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COLLECTIVE 24i  + TDMI 300 X 24 +TH 2000 MF X 48',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COMUNIC 16 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COMUNIC 16  + TDMI 300 X 10 +T.DESBAL X 2 +TP2000',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA COMUNIC 48 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA COMUNIC 48  + TDMI 300 X 30 + T.BALANC X 4 + TP2000',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA CP 112 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA CP 112  + TDMI 300 X 60 + T.BALANC X 4 + TP2000',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'KIT-CITOFONIA CP 192 Kit citofonía intrebras',
+  'KIT CITOFONIA CENTRAL TELEFONICA CP 192  + TDMI 300 X 90 + T.BALANC X 3 + TP2000',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+--------------------------
+--- 
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE1001 FIT Frente de calle analogo intrebras',
+  'FRENTE DE CALLE ANALOGO DE UNA TECLA, CON LECTOR RFID, COMPATIBLE CON CENTRALES COMUNIC Y CP.',
+  NULL,
+  NULL,
+  159500,
+  212700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE1013 FIT Frente de calle analogo intrebras',
+  'FRENTE DE CALLE ANALOGO DE 13 TECLAS, CON LECTOR RFID Y/O CONTRASEÑA, COMPATIBLE CON CENTRALES COMUNIC Y CP.',
+  NULL,
+  NULL,
+  199000,
+  265300
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE1001 FIT ID Frente de calle analogo intrebras',
+  'FRENTE DE CALLE ANALOGO DE UNA TECLA, CON LECTOR RFID, COMPATIBLE CON CENTRALES COMUNIC,CP Y CON MIP1000.',
+  NULL,
+  NULL,
+  182700,
+  243700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE1013 FIT ID Frente de calle analogo intrebras',
+  'FRENTE DE CALLE ANALOGO DE 13 TECLAS, CON LECTOR RFID Y/O CONTRASEÑA, COMPATIBLE CON CENTRALES COMUNIC,CP Y CON MIP1000.',
+  NULL,
+  NULL,
+  217600,
+  290200
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE1001 PLUS ID Frente de calle analogo intrebras',
+  'FRENTE DE CALLE ANALOGO DE UNA TECLA, COMPATIBLE CON LAS CENTRALES COMUNIC, CP, IAD 100, UNNITI 1000. ALIMENTACIÓN EXTERNA 110VAC. CONTROL DE ESCLUSA DE HASTA DOS PUERTAS.',
+  NULL,
+  NULL,
+  261700,
+  349000
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE1013 PLUS ID Frente de calle analogo intrebras',
+  'FRENTE DE CALLE ANALOGO DE 13 TECLAS, COMPATIBLE CON LA LÍNEA COMUNIC, CP, IAD 100, UNNITI 1000. ALIMENTACIÓN EXTERNA 110VAC. CONTROL DE ESCLUSA DE HASTA DOS PUERTAS.',
+  NULL,
+  NULL,
+  291500,
+  388700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE1013 BIO Frente de calle analogo intrebras',
+  'FRENTE DE CALLE ANALOGO 13 TECLAS CON BIOMETRIA DIGITAL INTEGRADA, APERTURA MEDIANTE HUELLA, LLAVEROS O TAG, CONTRASEÑA COMPATIBLE CON CENTRALES COMUNIC Y CP.',
+  NULL,
+  NULL,
+  597500,
+  796500
+);
+
+--------------------------
+--- Centrales telefonica hibridas
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'UNNITI 1000 Central telefonica intrebras',
+  'CENTRAL TELEFÓNICA HIBRIDA, SIENDO 30 LÍNEAS DIGITALES, 50 LÍNEAS IP,¹ 6 LÍNEAS ANALÓGICAS, 2 LÍNEAS GSM, 32 EXTENSIONES TDM Y 250 EXTENSIONES IP. INCLUYE 30 LÍNEAS IP, 2 NIVELES DISA, 10 TRONCALES IP GRATUITAS. COMPATIBLE CON FRENTE DE CALLE IP XPE 3101 IP Y MONITOR TVIP 3000 WIFI, TERMINALES ANALOGOS',
+  NULL,
+  NULL,
+  3539300,
+  4717600
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  '4400400 Placa 4 extensiones analogicos intrebras',
+  'PLACA 4 EXTENSIONES ANALÓGICOS UNNITI 1000',
+  NULL,
+  NULL,
+  177100,
+  236100
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  '4400401 Placa 4 ramas mixto intrebras',
+  'PLACA 4 RAMAS MIXTO (1RD/3RA) CENTRAL TELEFÓNICA UNNITI 1000',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  '4400402 Placa 2 troncos analogicos intrebras',
+  'PLACA 2 TRONCOS ANALÓGICOS UNNITI 1000',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'USB KEY Llave software intrebras',
+  'LLAVE DE SOFTWARE PARA UNNITI 1000, NECESARIA PARA ALMACENAR LICENCIAS.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'Licencia extension IP UNNITI intrebras',
+  '(INTANGIBLE - LICENCIA) LICENCIA VIRTUAL DE EXTENSION IP PARA UNNITI 1000/2000/3000',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+
+--------------------------
+--- terminales ip, telefoni multi
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'IAD 100 Central telefonica intrebras',
+  'CENTRAL TELEFÓNICA MULTIFUNCIONAL, 33 EXTENSIONES IAD 100, COMPATIBLE CON TELEFONÍA Y VIDEO PORTERÍA IP',
+  NULL,
+  NULL,
+  1247100,
+  1662300
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'TIP 125I Telefono IP intrebras',
+  'TELÉFONO IP, PROTOCOLO DE COMUNICACIÓN SIP 2.0, POE',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'TVIP 3000 WIFI Monitor video portero IP intrebras',
+  'MONITOR DE VIDEO PORTERO IP WIFI, REGISTRO DE LLAMADAS, SIP 2.0, SOPORTA 8 ZONAS DE ALARMA, PANTALLA TÁCTIL LCD DE 7",MEMORIA INTERNA DE 64GB,ALIMENTACIÓN POE / 12VCD(NO INCLUYE FUENTE)',
+  NULL,
+  NULL,
+  585900,
+  781100
+);
+
+--------------------------
+--- Frente calle ip
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE 3200 PLUS IP Video portero intrebras',
+  'VIDEO PORTERO CONDOMINIAL FACIAL PARA EXTERIOR CON CAPACIDAD PARA 1000 FACE,CAMARA INTEGRADA PARA INTERFONIA DE VIDEO',
+  NULL,
+  NULL,
+  1259400,
+  1678800
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XPE 3101 IP Video portero intrebras',
+  'VIDEO PORTERO IP, SIP 2.0, REGISTRO HASTA 1000 USUARIOS DE ACCESO (RFID), MIFARE (13,56 MHZ) - EM4100 (125 KHZ), ENTRADA / SALIDA WIEGAND, VOCALIZACIÓN DE DÍGITOS PRESIONADOS, LEDS IR PARA VISIÓN NOCTURNA, 2 SALIDAS DE RELÉ DE CONTACTO SECO (NA - NC), CONEXIÓN VÍA ETHERNET RJ45 10/100 MBPS, ALIMENTACIÓN POE / 12VCD (NO INCLUYE FUENTE). GRADO DE PROTECCIÓN IP65.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'SS 3541 MF LITE Controlador acceso intrebras',
+  'SS 3541 MF LITE, CONTROLADOR DE ACCESO RECONOCIMIENTO FACIAL , PANTALLA 4,3", LECTOR RFID 13.56 MHz, BIOMETRIA, WIFI',
+  NULL,
+  NULL,
+  661600,
+  882000
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'SS 3542 MF Controlador acceso intrebras',
+  'CONTROLADOR DE ACCESO FACIAL, HUELLA Y TAG MIFARE 13,56MHZ, , PROTECCIÓN IP55, CONEXIÓN AL MIP 1000 IP VÍA RS485. ALIMENTACIÓN 12V FUENTE NO INCLUIDA.',
+  NULL,
+  NULL,
+  698300,
+  930900
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'SS 3542 MF W Controlador acceso intrebras',
+  'CONTROLADOR DE ACCESO FACIAL, HUELLA Y TAG MIFARE 13,56MHZ, , PROTECCIÓN IP55, CONEXIÓN AL MIP 1000 IP VÍA RS485. ALIMENTACIÓN 12V FUENTE NO INCLUIDA.',
+  NULL,
+  NULL,
+  946400,
+  1261600
+);
+
+--------------------------
+--- SOLUCIONES DE CONTRL ACCESO
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'MIP 1000 IP Modulo porteria intrebras',
+  'MODULO INTELIGENTE DE PORTERÍA MIP 1000 IP, MODULO DE USO EN PORTERÍA PERMITE LA INTEGRACIÓN DE SISTEMAS DE CONTROL DE ACCESO ANÁLOGOS E IP AL SOFTWARE SCA 1000. HASTA 24 DISPOSITIVOS DE CONTROL DE ACCESO.',
+  NULL,
+  NULL,
+  439600,
+  586100
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  '4506000 Interfaz comunicacion IP intrebras',
+  'INTERFAZ DE COMUNICACIÓN REMOTA IP, PERMITE INTEGRAR EL SISTEMA DE CONTROL DE ACCESO MÁS TELEFONÍA ANÁLOGA, TRASMITE EVENTOS Y LLAMADAS A CENTRAL DE GESTIÓN A TRAVÉS DE PROTOCOLO IP.',
+  NULL,
+  NULL,
+  753800,
+  1004900
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XRE 1000 PLUS Receptor control intrebras',
+  'RECEPTOR DE CONTROL XRE 1000 PLUS, OPERADOR REMOTO CON DOS RELEVOS 10A. CONEXIÓN POR RS485 A MIP 1000 IP COMPATIBLE CON CONTROLES XTR 1000.',
+  NULL,
+  NULL,
+  199900,
+  266600
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XTR 1000 Control remoto intrebras',
+  'CONTROL REMOTO ANTI CLONADO 900MHZ. 3 FUNCIONES PERSONALIZABLES. COMPATIBLE CON XRE 1000 PLUS.',
+  NULL,
+  NULL,
+  19600,
+  26300
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XTR 1004 Control remoto intrebras',
+  'CONTROL REMOTO ANTI CLONADO 900MHZ. 4 FUNCIONES PERSONALIZABLES. COMPATIBLE CON XRE 1000 PLUS.',
+  NULL,
+  NULL,
+  24400,
+  32600
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'SS 3710 UHF Controlador acceso intrebras',
+  'CONTROLADOR DE ACCESO INTEGRADO POR TAG C/LECTOR UHF, ALCANCE 10 mts, IP66, CAPACIDAD 30.000 USUARIOS,ALIMENTACION POE 12V',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'SS 3430 MF BIO Controlador acceso intrebras',
+  'CONTROLADOR DE ACCESO POR BIOMETRÍA Y TAG MIFARE 13,56MHZ, CONEXIÓN AL MIP 1000 IP VÍA RS485. SOPORTA XID10000 Y TH 1000 MF. ALIMENTACIÓN 12V, FUENTE NO INCLUIDA.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'SS 3420 BIO Controlador acceso intrebras',
+  'CONTROLADOR DE ACCESO POR BIOMETRÍA Y TAG 125KHZ, CONEXIÓN AL MIP 1000 IP VÍA RS485. SOPORTA XID10000 Y TH 1000 MF. ALIMENTACIÓN 12V FUENTE NO INCLUIDA.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'TH 3010 Etiqueta RFID intrebras',
+  'ETIQUETA DE ACTIVACIÓN RFID DE 900 MHZ. IDENTIFICA VEHÍCULOS A UNA DISTANCIA DE HASTA 6 M Y CONTROLA EL ACCESO.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'CT 3000 2PB Controlador acceso intrebras',
+  'CONTROLADOR DE ACESSO HASTA 2 PUERTAS, INTEGRACION EN REDES MEDIANTE INTERFACES COMO ETHERNET (TCP/IP), RS-485 Y SEÑALES WIEGAND PARA COMUNICACIÓN DE LECTORES EXTERNOS',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'Conectores TJ extensiones intrebras',
+  'CONECTORES TJ EXTENSIONES. CONJUNTO PARA TABLERO DE RAMAL',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+--------------------------
+--- ACCESORIO COTNTRO DE ACESSO
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'TH 1000 MF Tag RFID intrebras',
+  'TAG RFID DE PROXIMIDAD RFID 13,56 MHZ.',
+  NULL,
+  NULL,
+  2000,
+  2700
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'TH 2000 MF Tarjeta RFID intrebras',
+  'TARJETA DE PROXIMIDAD RFID 13,56 MHZ.',
+  NULL,
+  NULL,
+  3000,
+  4000
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'XID 1000 Llavero RFID intrebras',
+  'LLAVERO RFID MIFARE. FRECUENCIA 13.56 MHZ, FUNCIÓN ANTI CLONACIÓN.',
+  NULL,
+  NULL,
+  5100,
+  6900
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'PP 200 Automatizador puerta intrebras',
+  'AUTOMATIZADOR DE PUERTAS PIVOTANTES PARA PUERTAS HASTA 140 KG Y 180 CM ANCHO',
+  NULL,
+  NULL,
+  1362800,
+  1816600
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'ITC 5100 Convertidor telefono celular intrebras',
+  'CONVIERTE TU TELÉFONO ANÁLOGO EN CELULAR, COMPATIBLE CON CUALQUIER OPERADOR MÓVIL. COMPATIBLE CON XPE 1013 PLUS ID PARA MARCAR A APARTAMENTOS. REQUIERE SIMCARD, INCLUYE FUENTE Y ANTENA.',
+  NULL,
+  NULL,
+  421000,
+  561200
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'MHDX 3116-C Gateway video intrebras',
+  'GATEWAY DE VIDEO DIGITAL COMPACTO - 16 CANALES - PUENTE PARA PORTERÍA VIRTUAL',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  '4580317 Modulo entradas salidas intrebras',
+  'MODULO DE ENTRADAS Y SALIDAS DE ALARMA PARA GATEWAY DE VIDEO MHDX 3116-C, PARA PORTERÍA VIRTUAL',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'LE 130 MF Lector RFID intrebras',
+  'LECTOR DE TARJETA RFID PROX LE 130 MF',
+  NULL,
+  NULL,
+  74500,
+  99400
+);
+
+--------------------------
+--- cerraduras electrica
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'FX 1500 GRIS Cerradura electrica intrebras',
+  'CERRADURA ELÉCTRICA SUPERPOSICION PARA PUERTAS DE MADERA O METAL',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'FX 2000 INOX Cerradura electrica intrebras',
+  'CERRADURA ELÉCTRICA SUPERPOSICION COMPATIBLE CON PORTEROS ELECTRONICOS,VIDEOPORTEROS Y CONTROLADORES',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+--------------------------
+--- Solucio cctv movil
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'VHDM 3100 G2 Camara intrebras',
+  'CÁMARA MINI DOMO VEHICULAR INTERIOR AHD, RESOLUCIÓN 1MP (1280 × 720P), SENSOR CMOS 1/3", LENTE 2,8MM, AGC, BLC, HLC, WDR, 2DNR, ALIMENTACIÓN 12VDC - 200MA, GRADO DE PROTECCIÓN IP65, CONECTOR DE AVIACIÓN DE 4 PINES.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'VHDM 3105 G2 Camara intrebras',
+  'CÁMARA MINI DOMO VEHICULAR AHD,1MP(1280 × 720P),2,8MM,IR SMART LED ±5M,AGC,BLC,HLC, WDR, 2DNR,ALIMENTACIÓN 12VDC-200MA,IP66, CONECTOR TIPO AVIADOR DE 4 PINES',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'CABLE EXTENSOR 3 intrebras',
+  'CABLE EXTENSOR PARA CÁMARAS VEHICULARES, 3 METROS.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'MVD 5404 GW DVR intrebras',
+  'DVR VEHICULAR AHD 1U, 4CH 1080P + 4CH IP,H.264, AUDIO: 4 ENTRADAS/1 SALIDA, ALARMA: 8 ENTRADAS/2 SALIDAS, RJ45, 4G/LTE ,GPS, WIFI, IA, 1 USB(2.0),  RS232X2,RS485X2,MEMORIA SD(256GB),1 HDD 2.5"HASTA 2TB (NO INCL.)',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+--------------------------
+--- CONECTIIVDAD INALAMBRICA
+--- 
+---------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'WOM 5A MIMO Radio intrebras',
+  'RADIO PARA PROVEEDOR DE INTERNET INALÁMBRICO. SU PRINCIPAL APLICACIÓN ES COMO CLIENTE EN ESCENARIOS PUNTO A MULTIPUNTO (PTMP), CUENTA CON ANTENA DE 16 DBI SISO 1TX1R CAPAZ DE REALIZAR ENLACES INALÁMBRICOS DE HASTA 6 KM, TASA DE TRANSMISIÓN NOMINAL HASTA 150 MBPS, ANCHO DE BANDA 5, 10, 20, 40 MHZ, EQUIPADA CON EL CHIPSET QUALCOMM ATHEROS 600 MHZ, FUENTE DE ALIMENTACIÓN POE PASIVO 100 – 240 VAC / 12 VDC, 1 A (INCLUIDA).',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'CONJUNTO WOM 5A MIMO Radio intrebras',
+  'RADIO PARA PROVEEDOR DE INTERNET INALÁMBRICO. SU PRINCIPAL APLICACIÓN ES COMO CLIENTE EN ESCENARIOS PUNTO A MULTIPUNTO (PTMP), CUENTA CON ANTENA DE 16 DBI SISO 1TX1R CAPAZ DE REALIZAR ENLACES INALÁMBRICOS DE HASTA 6 KM, TASA DE TRANSMISIÓN NOMINAL HASTA 150 MBPS, ANCHO DE BANDA 5, 10, 20, 40 MHZ, EQUIPADA CON EL CHIPSET QUALCOMM ATHEROS 600 MHZ, FUENTE DE ALIMENTACIÓN POE PASIVO 100 – 240 VAC / 12 VDC, 1 A (INCLUIDA).',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'APC 5A-20 Radio intrebras',
+  'RADIO ENLACE PTP 5GHZ CON ANTENA DE 16° MIMO 2X2 DE 20DBI PARA ENLACES DE HASTA 10 KM. IP65 CON PROTECCIÓN DE SOBRETENSIÓN DE HASTA 3KV EN EL PUERTO RJ45. COMPATIBLE CON IPV6 IEEE 802.11 A/N. TROUGHPUT EFECTIVO 90MBPS EN MODO DE OPERACIÓN ACCESS POINT (AUTO WDS), CLIENTE (WDS), ACCESS POINT IPOLL™ (V2/V3), CLIENTE IPOLL™ (V2/V3) E CLIENTE (ARPNAT). INCLUYE FUENTE POE.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'APC 5A-90 Radio intrebras',
+  'RADIO ENLACE MTP 5GHZ INCLUYE ANTENA SECTORIAL DE 90° MIMO 2X2 DE 20DBI PARA ENLACES DE HASTA 10 KM. IP65 CON PROTECCIÓN DE SOBRETENSIÓN DE HASTA 3KV EN EL PUERTO RJ45. COMPATIBLE CON IPV6 E IEEE 802.11 A/N. TROUGHPUT EFECTIVO 180MBPS EN MODO DE OPERACIÓN ACCESS POINT (AUTO WDS), CLIENTE (WDS), ACCESS POINT IPOLL™ (V2/V3), CLIENTE IPOLL™ (V2/V3) E CLIENTE (ARPNAT). INCLUYE FUENTE POE.',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'BSPRO 360 Access Point intrebras',
+  'ACCES POINT DE ALTA DEMANDA, LIBERA ACCESO A INTERNET LUEGO DE DAR FOLLOW EN INSTAGRAM. POTENCIA DE HASTA 630 MW Y UNA VELOCIDAD DE HASTA 300 MBPS EN LA RED. ADEMÁS, TRANSMITE LA SEÑAL WIFI EN ÁREAS DE HASTA 400 M².',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+
+
+--------------------------
+--- Accesorios
+---
+---------
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'COC 4038P Caja organizadora intrebras',
+  'CAJA ORGANIZADORA NEGRA PARA CCTV',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'COC 4038B Caja organizadora intrebras',
+  'CAJA ORGANIZADORA BLANCA PARA CCTV',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'VBOX 1100 Caja de paso intrebras',
+  'CAJA DE PASO 10X10X5 CM. MONTAJE PARED O TECHO',
+  NULL,
+  NULL,
+  6600,
+  8900
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'VBOX 1100 E Caja de paso intrebras',
+  'VBOX 1100 E, CAJA DE PASO PARA EXTERIORES 12X12X6 CM,IP 66, MONTAJE PARED O TECHO',
+  NULL,
+  NULL,
+  10300,
+  13800
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'Conex 1000 2 vías Conector intrebras',
+  'CONECTOR CONEX PARA CABLES DE 4 MM², 2 VÍAS. PAQUETE X 6 UNDS',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
+VALUES (
+  'Conex 1000 3 vías Conector intrebras',
+  'CONECTOR CONEX PARA CABLES DE 4 MM², 3 VÍAS. PAQUETE X 4 UNDS',
+  NULL,
+  NULL,
+  NULL,
+  NULL
+);
+
