@@ -359,19 +359,671 @@ INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, cost
 ---SOLUCIONES PARA VIDEO WALL
 ---
 -----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua DHI-LS550UCM-BF monitor lcd industrial video wall',
+  'Monitor LCD industrial para VIDEO WALL de 55" (16:9), Bisel 3.5 mm,  Resolución 1920×1080 (FHD) , BNC (1), VGA (1), DVI (1), HDMI (1), RS232 (1, USB (1), IR(1)   Procesamiento digital de alta fidelidad, Tiempo de respuesta rápido de 8 ms, Trabajo continuo 24/7. Brillo 500 cd/m².',
+  NULL,
+  NULL,
+  4963452,
+  1
+),
+(
+  'Dahua DHI-M70-4U-E controladora video wall',
+  'Controladora de Video Wall modular 4U, hasta 10 tarjetas de entrada/salida, 6 RJ45 GIGABIT, Soporta 320ch@1080P H.265 señal decodificada (configuracion completa), admite empalme maximo de 60 pantallas, fuente redundante',
+  NULL,
+  NULL,
+  NULL,
+  1
+),
+(
+  'Dahua VDC0605H-M70 tarjeta salida hdmi',
+  '"Tarjeta de salida HDMI para M70-4U-E, , 6 puertos HDMI, 
+decodificación 8CH@12MP(15fps) /8CH@4K/32CH@1080P/72CH@720P/150CH@D1"',
+  NULL,
+  NULL,
+  5134605,
+  1
+),
+(
+  'Dahua VEC0404HH-M70 tarjeta entrada hdmi',
+  'Tarjeta de entrada HDMI para M70-4U-E, 4 puertos HDMI.',
+  NULL,
+  NULL,
+  4278838,
+  1
+),
+(
+  'Dahua YM-2681HBR fuente redundante',
+  'Fuente redundante para M70-4U, M70-4U-E, DSCON3000',
+  NULL,
+  NULL,
+  1979385,
+  1
+),
+(
+  'Dahua D6728 L=3000MM modulo receptor ir',
+  '"Modulo receptor IR 3.5 mts. Imprescindible para proyectos de videowalls LCD modelos -BF / -EF / -UF.
+Uso con control remoto para operación de cambio de pantalla"',
+  NULL,
+  NULL,
+  13351,
+  1
+),
+(
+  'Dahua DH-DHL-FJ kit accesorios video wall',
+  '"Kit accesorios para instalacion de pantallas para video wall
+Incluye. 
+•	Tablero de control remoto
+•	Controles remoto
+•	Cable UTP
+•	Adaptadores RS232 a RJ45
+•	2 llave Allen (M6)"',
+  NULL,
+  NULL,
+  111232,
+  1
+),
+(
+  'Dahua DH-W-HDMI10M-4K cable hdmi',
+  'Cable HDMI 10m macho-macho / 2160p. Compatible con la interfaz estándas HDMI',
+  NULL,
+  NULL,
+  53167,
+  1
+),
+(
+  'Dahua LS550-E/U-B11 soporte pared pantalla',
+  '"Soporte de pared para pantallas 55""
+Material de alta resistencia-SECC. Fácil instalación, compatible con los videowalls LCD Dahua LS550UCM-EF, LS550UCM-UF, LS550UDM-EF, LS550UDM-EG, LS550UDH-EG, LS550UEM-EG, LS550UEH-EG, LS550UEM-UG, LS550UEH-UG, LS550UDM-UG , LS550UDH-UG"""',
+  NULL,
+  NULL,
+  NULL,
+  1
+),
+(
+  'Dahua LS550-WS soporte pared pantalla',
+  'Soporte de pared para pantalla de 55", permite mantenimiento trasero',
+  NULL,
+  NULL,
+  985091,
+  1
+),
+(
+  'Dahua DHI-LS550UD-ES-YD1000 pedestal pantalla',
+  'Pedestal para pantalla de 55", altura 1 metro',
+  NULL,
+  NULL,
+  NULL,
+  1
+),
+(
+  'Dahua DHI-LS550UC-E/U-D1000 pedestal pantalla',
+  'Pedestal para pantalla de 55", altura 1 metro',
+  NULL,
+  NULL,
+  NULL,
+  1
+),
+(
+  'Dahua DHI-LS550UC-EF-YD1400 pedestal pantalla',
+  'Pedestal para pantalla de 55", altura 1.4 mts',
+  NULL,
+  NULL,
+  NULL,
+  1
+);
 
 
 -----------------
 ---Pantalla interactiva
+---l  247
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua DHI-LPH65-MC480-U-S pantalla interactiva',
+  '"Pantalla Interactiva Inteligente de 65"", 4K UHD, Android 13.0, Quad-core A76 + Quad-core A55, 2.4 GHz, RAM 8GB, 48 MP, Altavoz Incorporado 4 (CH2.2), Pantalla táctil, Tiempo de respuesta: ≤2.5 ms. Modo de Escritura: Dedo / Lápiz óptico. 
+Incluye: 
+ - Cable de alimentación × 1
+ - Lápiz óptico × 2
+- Soporte de pared × 1
+- Control remoto × 1
+ - Tornillos para montaje en pared × 1"',
+  NULL,
+  NULL,
+  6342555,
+  1
+),
+(
+  'Dahua DHI-LPH75-MC480-U-S pantalla interactiva',
+  '"Pantalla Interactiva Inteligente de 75"", 4K UHD, Android 13.0, Quad-core A76 + Quad-core A55, 2.4 GHz, RAM 8GB, 48 MP, Altavoz Incorporado 4 (CH2.2), Pantalla táctil, Tiempo de respuesta: ≤2.5 ms. Modo de Escritura: Dedo / Lápiz óptico. 
+Incluye: 
+ - Cable de alimentación × 1
+ - Lápiz óptico × 2
+- Soporte de pared × 1
+- Control remoto × 1
+ - Tornillos para montaje en pared × 1"',
+  NULL,
+  NULL,
+  7852679,
+  1
+),
+(
+  'Dahua DHI-LPH86-MC480-U-S pantalla interactiva',
+  '"Pantalla Interactiva Inteligente de 86"", 4K UHD, Android 13.0, Quad-core A76 + Quad-core A55, 2.4 GHz, RAM 8GB, 48 MP, Altavoz Incorporado 4 (CH2.2), Pantalla táctil, Tiempo de respuesta: ≤2.5 ms. Modo de Escritura: Dedo / Lápiz óptico. 
+Incluye: 
+ - Cable de alimentación × 1
+ - Lápiz óptico × 2
+- Soporte de pared × 1
+- Control remoto × 1
+ - Tornillos para montaje en pared × 1"',
+  NULL,
+  NULL,
+  9060826,
+  1
+),
+(
+  'Dahua DHI-PKC-MS0A soporte movil',
+  'Soporte Móvil, para pantallas Interactivas de 55" a 75", Capacidad de carga: 125Kg',
+  NULL,
+  NULL,
+  331050,
+  1
+),
+(
+  'Dahua DHI-PKC-MS1A soporte movil',
+  'Soporte Móvil, para pantallas Interactivas de 86" a 98", Capacidad de carga: 200Kg',
+  NULL,
+  NULL,
+  562796,
+  1
+),
+(
+  'Dahua DHI-PKC-WM1A microfono digital',
+  '"Micrófono Digital Omnidireccional, Batería de litio o fuente de alimentación a través del puerto Tipo-C, Distancia de Funcionaiento: 10 mts, Conexión en cascada inalámbrica de 2 dispositivos
+Incluye:
+ - Cable USB tipo C de 1 m × 1
+ - Receptor Bluetooth USB × 1"',
+  NULL,
+  NULL,
+  906091,
+  1
+),
+(
+  'Dahua DHI-PKP-WP1B dongle inalambrico',
+  'Dongle inalámbrico para compartir presentaciones en las Pantallas Interactivas, Interfaz Tipo C. Compatible con Chrome, iPads y Sistemas Operativos como Windows, macOS, Linux y Android.',
+  NULL,
+  NULL,
+  755082,
+  1
+),
+(
+  'Dahua DHI-SP-PI5C75IS-ZW modulo ops',
+  'Módulo OPS, CPU  Intel® Alder lake-H i5-12450H, 4,40 GHz , Gráficos Intel® UHD para procesadores Intel® de 12.ª generación , 1 x 16 GB DDR4 3200 MHz , 1  SSD de 512 GB 2280, Nvme/SATA, 1 módulo PCIE/USB2.0 de 2230 Mbps, WIFI/BT ,  HDMI 1.4 (1), DP1.2 (1), USB 3.1 (2), USB 2.0 (2), RJ45 (1),  USB 3.1 Tipo-C (1)',
+  NULL,
+  NULL,
+  1842359,
+  1
+),
+(
+  'Dahua DHI-SP-PI7C75IS-ZW modulo ops',
+  'Módulo OPS, CPU Intel® Alder lake-H i7-12650H，4.70GHz, Gráficos Intel® UHD para procesadores Intel® de 12.ª generación, 1 x 16GB DDR4 3200MHz, 1  SSD de  512GB 2280，Módulo NVMe/SATA, 1  Módulo PCIE/USB 2.0 de 2230 Mbps, Wi-Fi/BT, HDMI 1.4 (1), DP 1.2 (1), USB 3.1 (2), USB 2.0 (2), RJ45 (1), 1 USB 3.1 Tipo-C (1)',
+  NULL,
+  NULL,
+  2083981,
+  1
+);
+
+
+
+ 
+-----------------
+---tiempo y asistencia
 ---
 -----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua DHI-ASA1222E-S lector biometrico',
+  'Lector  Autonomo Biometrico, Teclado, pantalla LCD, soporta  2.000 huellas y 1.000 usuarios, contraseña, huella digital y la combinación,  TCP / IP, Control de Tiempo y Asistencia, Fuente Incluida.',
+  NULL,
+  NULL,
+  161081,
+  1
+);
 
 -----------------
----
+---Controladores autonomos
 ---
 -----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua DHI-ASI1212F lector biometrico',
+  'Lector/Controlador Autonomo Biometrico, Pantalla 2.8",  boton de timbre, Teclado táctil y pantalla LCD, soporte 30.000 tarjetas válidas y 150.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, huella digital y la combinación, TCP / IP, Wiegand o RS-485, Antipassback, P2P.',
+  NULL,
+  NULL,
+  418819,
+  1
+),
+(
+  'Dahua DHI-ASI2212J lector biometrico',
+  'Lector/Controlador Autonomo Biometrico, Pantalla LCD, soporte 5.000 tarjetas válidas y 100.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, huella digital y la combinación, TCP / IP, Wiegand o RS-485, Uso Interior, Antipassback, P2P, DHCP.',
+  NULL,
+  NULL,
+  238383,
+  1
+),
+(
+  'Dahua DHI-ASI2212H-W lector biometrico',
+  'Lector/Controlador Autonomo Biometrico, Teclado táctil y pantalla LCD, soporte 30.000 tarjetas válidas y 150.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, huella digital y la combinación, TCP / IP, WI-FI, Wiegand o RS-485, IP65, Antipassback, P2P, DHCP.',
+  NULL,
+  NULL,
+  483243,
+  1
+),
+(
+  'Dahua DHI-ASI3203E-W lector biometrico facial',
+  'Lector/Controlador Autonomo Biometrico, Teclado táctil y pantalla LCD de 2.4", Cámara doble lente de 2MP soporta 3.000 tarjetas,1.000 usuarios y100.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, rostro y tarjeta, TCP / IP, WI-FI, Wiegand o RS-485, Antipassback, P2P, DHCP. Admite gestión de asistencia web y exportación de informes de asistencia locales',
+  NULL,
+  NULL,
+  289930,
+  1
+),
+(
+  'Dahua DHI-ASI3204E-W lector biometrico facial',
+  'Lector/Controlador Autonomo Biometrico, Teclado táctil y pantalla LCD de 2.4", Cámara doble lente de 2MP soporta 3.000 tarjetas,1.000 usuarios y100.000 registros, soporta tarjeta 13,56Mhz Mifare, contraseña, rostro, huella y tarjeta, TCP / IP, WI-FI, Wiegand o RS-485, Antipassback, P2P, DHCP. Admite gestión de asistencia web y exportación de informes de asistencia locales',
+  NULL,
+  NULL,
+  341478,
+  1
+);
+
 
 -----------------
----
+---Controladores Acesso faciles
 ---
 -----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua DHI-ASI3214A-W terminal control acceso',
+  'Terminal de control de Acceso FACT, Pantalla táctil LCD 4.3",  cámara 2mp, soporta reconocmiento de rostro, huella digital, tarjeta, contraseña y combinación, TCP / IP,  RS-485, Antipassback. Para uso interior.',
+  NULL,
+  NULL,
+  483243,
+  1
+),
+(
+  'Dahua DHI-ASI6214S-PW terminal control acceso',
+  'Terminal de control de Acceso FACT, Pantalla táctil LCD 4.3",  cámara 2mp, soporta reconocmiento de rostro, tarjeta, contraseña, huella digital, Codigo QR y combinación, TCP / IP y WIFI,   Wiegand o RS-485, IP65, Antipassback..',
+  NULL,
+  NULL,
+  592777,
+  1
+),
+(
+  'Dahua ASF053-ZJ soporte montaje',
+  'Soporte Montaje. Compatible con ASI6213S-W, ASI6214S-W, ASI7213Y-V3, ASI7214Y-V3, ASI7213X y ASI7214X',
+  NULL,
+  NULL,
+  122371,
+  1
+);
+
+-----------------
+---CONTROLADORES DE ACCESO
+---
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASA1222E-S Lector biométrico autónomo con teclado',
+  'Lector  Autonomo Biometrico, Teclado, pantalla LCD, soporta  2.000 huellas y 1.000 usuarios, contraseña, huella digital y la combinación,  TCP / IP, Control de Tiempo y Asistencia, Fuente Incluida.',
+  NULL,
+  NULL,
+  161081,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASC2202B-D Controlador de acceso 2 puertas',
+  'Controlador DAHUA 2 puertas, RJ45, TCP/IP, RS485/WIEGAND, RTC, soporta múltiples tarjetas, soporta 100.000 tarjetas y 500.000 registros, dispositivo de seguridad multi-puerta, 2 Puertas doble(Lector entrada, Lector de salida), 9-15DC / 500mA, Esclusa, No incluye gabinete',
+  NULL,
+  NULL,
+  NULL,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASC2204C-D Controlador de acceso 4 puertas con gabinete',
+  'Controlador DAHUA 4 puertas, TCP/IP, RS485/WIEGAND, RTC, soporta múltiples tarjetas, soporta 100.000 tarjetas,3.000 Huellas y 500.000 registros, dispositivo de seguridad multi-puerta, 4 Puertas doble(Lector entrada, Lector de salida),
+  100-240 V AC, IP20, IK04, Incluye gabinete',
+  NULL,
+  NULL,
+  902062,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASC2204B-S Controlador de acceso 4 puertas',
+  'Controlador DAHUA 4 puertas, TCP/IP, RS485 (5) /WIEGAND (4) (W34/W26) RTC, soporta múltiples tarjetas, soporta 100.000 usuarios, 3.000 huellas, 100.000 tarjetas y 500.000 registros. Combinación de grupo:Desbloqueo de tarjeta/contraseña/huella digital,, Alarma: 1 entrada/1salida, 1 Puero 10/100, IP20, IK04.',
+  NULL,
+  NULL,
+  370471,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASC4204C-D Controlador de acceso 4 puertas avanzado',
+  'Controlador DAHUA 4 puertas, TCP/IP, P2P, DHCP, soporta 100.000 usuarios, 10.000 huellas, 100.000 tarjetas y 500.000 registros. Combinación de grupo: Desbloqueo de tarjeta, contraseña, huella dactilar y código QR, 4 Puertas doble (Lector entrada, Lector de salida), RS-485 (9) , Wiegand (8), RJ45 (1) Anti-passback Alarma: 5 entrada/4salida, Uso Interior.',
+  NULL,
+  NULL,
+  902062,
+  1
+);
+
+-----------------
+---LECTORES Y ACCESORIOS
+---
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASR1102A V3 Lector de huella y tarjeta Mifare',
+  'Lector de Huella Digital y Tarjeta 13,56Mhz Mifare, RS-485, soporta hasta 3000 huellas, Para uso interior',
+  NULL,
+  NULL,
+  251299,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASR1200E Lector de tarjetas Mifare',
+  'Lector de tarjetas Mifare 13.56MHz, RS485,Wiegand, IP66',
+  NULL,
+  NULL,
+  48309,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASR1200E-D Lector de tarjetas RFID 125Khz',
+  'Lector de tarjetas RFID 125 kHz, RS485, Wiegand,IP66',
+  NULL,
+  NULL,
+  45109,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASR2101H Lector de acceso Mifare con contraseña',
+  'Lector de aceso, Soporta tarjetas Mifare 13.56MHz, Contraseña RS485,Wiegand 34, IP66',
+  NULL,
+  NULL,
+  NULL,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASR2101H-D Lector de acceso RFID con contraseña',
+  'Lector de acceso, Soporta tarjetas RFID 125 kHz, RS485, Contraseña, Wiegand 34, IP66',
+  NULL,
+  NULL,
+  NULL,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ASM101A Enrolador de huellas y tarjetas Mifare',
+  'Enrolador de huellas y tarjetas Mifare, Plug and play, Compatible con las plataformas SmartPSS AC y DSS Pro.',
+  NULL,
+  NULL,
+  306046,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua IC-M1 Tarjeta Mifare 13.56MHz',
+  'Tarjeta de acceso 13,56Mhz Mifare, compatible con Control de Acceso, Videoporteros (IP- Análogos).',
+  NULL,
+  NULL,
+  790,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ID-EM Tarjeta RFID 125Khz',
+  'Tarjeta de acceso 125Khz,compatibles con controles de acceso y videoporteros que manejen el standard Wiegand 26',
+  NULL,
+  NULL,
+  2647,
+  1
+);
+
+-----------------
+---VIDEO PORTEROS
+---
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTH2421FB-P Monitor videoportero IP 7 pulgadas',
+  'Monitor con pantalla táctil a color 7" LCD para videoportero IP, alarma: 6 entradas / 1 Salida, comunición bidireccional, slot para memoria MicroSD, H.264, 12VDC y PoE.',
+  NULL,
+  NULL,
+  309285,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua KTP03 Kit videoportero IP',
+  'KIT videoportero IP: Incluye DHI-VTO2111D-P-S3, DHI-VTH2621G-P, DH-PFS3006-4ET-36. CMOS de 1/2.8" 2 MP, 3D NR, Auto IR, Comunicaciín Bi-direccional, Tamper Alarma, IP65, Monitor 7" TFT, Slot para memoria Micro SD (Max 64GB - No incluida). Alarma: 6 entradas/ 1 salida, Switch: 6 puertos, 4 Puertos PoE (10/100 Mbps Base-TX)',
+  NULL,
+  NULL,
+  547668,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua KTA04 Kit videoportero LCD 4.3 pulgadas',
+  'KIT videoportero, Pantalla LCD de 4,3", CMOS de 1.3 MP, DWDR, IR Automático, Detector magnético ICR, Audio: 1 Entrada/1 Salida, IP66, Funda para lluvia (incluida).',
+  NULL,
+  NULL,
+  212629,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua KTW02 Kit videoportero IP Wifi',
+  'KIT videoportero Wifi: Incluye: DHI-VTO2311R-WP y DHI-VTH2621G-WP. CMOS de 1/2.8" 2 MP, WDR (120db), 3D NR; 2D NR, Auto IR, Comunicaciín Bi-direccional, slot para memoria micro SD (Max 256 GB - No incluida) IP65, Capacidad para 3000 tarjetas, Monitor 7" TFT, Alarma: 6 entradas/ 1 salida.',
+  NULL,
+  NULL,
+  644324,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTO2111D-P-S3 Videoportero IP Villa',
+  'Videoportero IP Villa, Cámara 1 MP CMOS angulo de vision 125°, Altavoz incorporado, audio bidireccional, tarjeta mifare, TCP/IP, P2P, IP65, H.264, comprobacion de estado de la puerta y apertura remota, 12V DC 1A.',
+  NULL,
+  NULL,
+  277053,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTO2101E-P-S2 Videoportero IP Villa 2MP',
+  'Videoportero IP Villa, Cámara 2 MP CMOS, Altavoz incorporado, audio bidireccional, TCP/IP, P2P, IP65, IK10, H.265, 12 VDC, 1 A.',
+  NULL,
+  NULL,
+  302847,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTO2211G-WP-S2 Videoportero IP Villa Wifi',
+  'Videoportero IP Villa WIFI, Cámara 2 MP CMOS angulo de vision 125°, Altavoz incorporado, audio bidireccional, TCP/IP, P2P, IP65, H.264, comprobacion de estado de la puerta y apertura remota, 12 VDC, 1 A. No incluye soporte',
+  NULL,
+  NULL,
+  354394,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTO2201F-P Videoportero IP Villa metalico',
+  'Videoportero IP Villa, Cámara 2 MP CMOS angulo de vision 140°, lente 2mm, Altavoz incorporado, comunicación bi-direccional , Alarma 1 out, TCP/IP, P2P, IP65, IK07, H.264, comprobacion de estado de la puerta y apertura remota, PoE. Metalico. No Incluye Soporte',
+  NULL,
+  NULL,
+  354394,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTO6531H-S2 Videoportero IP facial edificios',
+  'Videoportero IP Facial para Edificios Multi-apartamentos. Pantalla LCD de 4,3", 2MP (Doble Lente), Admite: 40.000 usuarios, 20.000 rostros y 20.000 tarjetas, Comunicación BI-Direccional, Método de Veriificación: Tarjeta, Contraseña, Control Remoto, Reconocimiento Facial, WDR, 3D NR, H265, RS-485 (1), Wiegand (1) , Alarma: 1 entrada/1 Salida, IP65 (Requiere la caja de empotrar ref. VTM121)',
+  NULL,
+  NULL,
+  755082,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTO7541G-S3 Videoportero IP facial 8 pulgadas',
+  'Videoportero IP Facial para Edificios Multi-apartamentos. Pantalla Táctil LCD de 8", 2MP (Doble Lente), Admite: 100.000 usuarios, 50.000 rostros , 50.000 tarjetas y 10.000 Huellas, Comunicación BI-Direccional, Método de Veriificación: Tarjeta, Huella, Contraseña, Control Remoto, Reconocimiento Facial, WDR, 3D NR, H265, RS-485 (1), Wiegand (1) , Alarma: 2 entradas/2 Salidas, IP65 , Slot para Micro Sd (Hasta 512GB).(Requiere la caja de empotrar ref. VTM121)',
+  NULL,
+  NULL,
+  1510125,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTM09R Cubierta para lluvia VTO',
+  'Cubierta para lluvia, montaje en superficie para VTO VTO2211G',
+  NULL,
+  NULL,
+  19316,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTM115 Caja de montaje superficie VTO',
+  'Caja de montaje en superficie para VTO2202F',
+  NULL,
+  NULL,
+  45109,
+  1
+);
+
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua VTM121 Caja de empotrar exterior VTO',
+  'Caja de empotrar para exterior, compatible con VTO6 Y VTO7',
+  NULL,
+  NULL,
+  96657,
+  1
+);
+
+-----------------
+---Detecttores de  metales
+---
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+(
+  'Dahua ISC-H002 Detector de metales manual',
+  'Detector de metales manual. Detecta metales magnéticos y no magnéticos, Niveles de sensibilidad: bajo, medio, alto y ultra alto, Modos de alarma: sonido, luz y vibración',
+  NULL,
+  NULL,
+  NULL,
+  1
+);
+
+-----------------
+---Barreras y torniquetes
+---
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('Dahua ASGB110K-L Barrera de acceso peatonal', 'Barrera de Acceso Peatonal (Izquierdo), Brazo Acrilico de 600mm, Permite combinar múltiples métodos de autenticación: Tarjetas, Reconocimiento facial, Huella Dactilar, código QR y tarjeta CPU, MCBF >3 millones, Incluye 4 pares de detectores IR, Servomotor DC sin escobilla, Admite anticolisión, RS-485 (1) , Wiegand (1), IK06, IK08, IPX4', NULL, NULL, NULL, 1),
+
+('Dahua ASGB110K-R Barrera de acceso peatonal', 'Barrera de Acceso Peatonal (Derecho), Brazo Acrilico de 600mm, Permite combinar múltiples métodos de autenticación: Tarjetas, Reconocimiento facial, Huella Dactilar, código QR y tarjeta CPU, MCBF >3 millones, Incluye 4 pares de detectores IR, Servomotor DC sin escobilla, Admite anticolisión, RJ-45 (1), RS-485 (1) , Wiegand (1), IK06, IK08, IPX4', NULL, NULL, NULL, 1),
+
+('Dahua ASGB120K-D Barrera de acceso peatonal', 'Barrera de Acceso Peatonal (Central), Brazo Acrilico de 600mm, Permite combinar múltiples métodos de autenticación: Tarjetas, Reconocimiento facial, Huella Dactilar, código QR y tarjeta CPU, MCBF >3 millones, Incluye 4 pares de detectores IR, Servomotor DC sin escobilla, Admite anticolisión, RJ-45 (1), RS-485 (1) , Wiegand (1), IK06, IK08, IPX4', NULL, NULL, 5798916, 1),
+
+('Dahua ASGG120T Torniquete trípode', 'Torniquete tipo Trípode, Bi-direccional, Hasta 3 millones de ciclos, IK06, IK08, IPX4, Acero inoxidable.', NULL, NULL, NULL, 1),
+
+('Dahua ASGB811H-L Torniquete acceso peatonal', 'Torniquete de Acceso Peatonal (Izquiedo), Permite combinar múltiples métodos de autenticación: Reconocimiento facial, Huella Dactilar, código QR y tarjeta CPU, MCBF >8 millones, Incluye 12 pares de detectores IR, Servomotor de CC sin escobilla, Admite Antialastamiento y Anticolisión, RJ-45 (1), RS-485 (1) , Wiegand (1), IK07, IK04, Uso Interior. (Se debe adgregar el accesorio tipo ALA ASF-B600G-H1200)', NULL, NULL, 29096095, 1),
+
+('Dahua ASGB811H-R Torniquete acceso peatonal', 'Torniquete de Acceso Peatonal (Derecho), Permite combinar múltiples métodos de autenticación: Reconocimiento facial, Huella Dactilar, código QR y tarjeta CPU, MCBF >8 millones, Incluye 12 pares de detectores IR, Servomotor de CC sin escobilla, Admite Antialastamiento y Anticolisión, RJ-45 (1), RS-485 (1) , Wiegand (1), IK07, IK04, Uso Interior. (Se debe adgregar el accesorio tipo ALA ASF-B600G-H1200)', NULL, NULL, 29096095, 1),
+
+('Dahua ASGB822H-D Torniquete acceso peatonal', 'Torniquete de Acceso Peatonal (Central), Permite combinar múltiples métodos de autenticación: Reconocimiento facial, Huella Dactilar, código QR y tarjeta CPU, MCBF >8 millones, Incluye 12 pares de detectores IR, Servomotor de CC sin escobilla, Admite Antialastamiento y Anticolisión, RJ-45 (1), RS-485 (1) , Wiegand (1), IK07, IK04, Uso Interior. (Se debe adgregar el accesorio tipo ALA ASF-B600G-H1200 )', NULL, NULL, 39793169, 1),
+
+('Dahua ASF-B600G-H1200 Accesorio ala torniquete', 'Accesorio tipo ALA para torniquetes serie DHI-ASGB8XXH-X. La barrera mide 1,04 m de alto y 0,26 m de ancho. Al combinarse con los torniquetes, el terminal de control de acceso mide 1,2 m de alto y 0,6 m de ancho. Material: Vidrio', NULL, NULL, 1711535, 1),
+
+('Dahua IPMECD-1062-R Talanquera vehicular', 'Talanquera para Brazo Recto (Derecha por defecto), Hasta 3.5 millones de ciclos. 2000 RPM, RS-485 (1) , I/O, Admite función Anti-Aplastamiento por bucle, IR y Radar, IP54, 100–264 VAC (Debe agregar el brazo IPMECD-0162-M30)', NULL, NULL, 1485990, 1),
+
+('Dahua IPMECD-2032-LM30-T10 Talanquera vehicular', 'Talanquera de Brazo Recto Izquierdo, 3MTS, Hasta 5 millones de ciclos, RS-485 (1) , I/O (5), Admite función Anti-Aplastamiento mediante Radar, Bobina o IR, IP54, 186V–264V AC (Debe agregar el brazo IPMECD-0232-M30)', NULL, NULL, 2531002, 1),
+
+('Dahua IPMECD-2032-RM30-T10 Talanquera vehicular', 'Talanquera de Brazo Recto Derecho, 3MTS, Hasta 5 millones de ciclos, RS-485 (1) , I/O (5), Admite función Anti-Aplastamiento mediante Radar, Bobina o IR, IP54, 186V–264V AC (Debe agregar el brazo IPMECD-0232-M30)', NULL, NULL, 2531002, 1),
+
+('Dahua IPMECD-0232-M30 Brazo recto', 'Brazo recto de 3MTS, Apertura automática, Función Anti-aplistamiento con Radar, Hasta 5 millones de ciclos, RS-485 (1), I/O (5), IP54.', NULL, NULL, 295974, 1),
+
+('Dahua IPMECD-0162-M30 Brazo recto', 'Brazo recto de 3MTS, compatible con Barreras de Acceso Vehicular DHI-IPMECD-1062, Se puede utilizar en cualquier lado de la barrera.', NULL, NULL, 157052, 1),
+
+('Dahua ITSJC-2303-DC12 Radar anti-aplastamiento', 'Radar de Anti-Aplastamiento para control de Acceso Vehicular, 77 GHz–81 GHz, Tiempo de Respuesta: 50ms, RS-485 (1), E/S (2), IP66', NULL, NULL, 664469, 1);
+
+-----------------
+---Intrusion
+---
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('Dahua ARC9016C-V3 Panel de alarma', 'Panel de Alarma 16 zonas (Expandible a 256 zonas)', NULL, NULL, 906091, 1),
+
+('Dahua ARK50C Teclado LCD alarma', 'Teclado LCD para alarma ARC9016C', NULL, NULL, 181226, 1),
+
+('Dahua ARM808-RS Modulo expansor', 'Módulo expansor de 8 zonas', NULL, NULL, 90613, 1),
+
+('Dahua ARA58-F-EN Comunicador alarma', 'Comunicador de alarma. Admite GSM/WCDMA/LTE-FDD/LTE-TDD', NULL, NULL, 332235, 1);
+
+
+-----------------
+---ACCESORIOS
+---
+-----------------
+INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio) VALUES
+('Dahua DH-PFM800-N Video balun', 'Video Balun pasivo HDCVI/CVBS/AHD/TVI (presentación x par), distancia: 350m a 1MP, 200m a 2MP (RG59), terminal Push Pin.', NULL, NULL, 3990, 1),
+
+('Dahua DH-PFM800B-4K Video balun', 'Video Balun pasivo HDCVI/CVBS/AHD/TVI (presentación x par), distancia: 400m a 1MP,  250m a 2MP, 200m a 4MP.', NULL, NULL, 10112, 1),
+
+('Dahua PFM801-4MP Video balun', 'Video Balun pasivo HDCVI/CVBS/AHD/TVI de video y poder (presentación x par), HDCVI: 720P, 400M(max); 1080P, 200M(max); 4MP:200M(max). Fuente: Material ABS, Input DC24-36V, output DC12V 8W(max), No Incluida. (fuente compatible ZD-00617)', NULL, NULL, 26505, 1),
+
+('Dahua Modulo SFP Multimodo', 'Módulo óptico SFP, Multimodo,  Puerto LC,  Envío a 850 nm y recepción a 850 nm, Transmisión Gigabit 1,25GBPS hasta 550 m. Plug and Play', NULL, NULL, 103095, 1),
+
+('Dahua DC24V3A Adaptador voltaje', 'Adaptador de voltaje 24VDC-3AMP', NULL, NULL, NULL, 1),
+
+('Dahua DH-PFM904 Tester monitor', 'Tester Monitor Integrado, soporta HDCVI, AHD, TVI, CVBS. Audio y RS485. 12VDC', NULL, NULL, 386587, 1),
+
+('Dahua DH-PFM900-E Tester monitor', 'Tester Monitor Integrado, soporta HDCVI, AHD, TVI, CVBS, IP, protocolo ONVIF. Audio y RS485. 12VDC', NULL, NULL, 2061821, 1),
+
+('Dahua DHI-ARB1606 Caja alarma', 'Caja de Alarma para XVR, Extiende entradas y salidas de Alarma, 16 entradas/6 salidas, RS485.', NULL, NULL, 74181, 1),
+
+('Dahua DH-PFA152-E Soporte camara', 'Soporte de Montaje en Poste para camaras tipo Domo/Bala', NULL, NULL, NULL, 1),
+
+('Dahua DH-PFA150-V3 Soporte camara', 'Soporte de Montaje en Poste para camaras tipo Domo/Bala', NULL, NULL, NULL, 1);
+
