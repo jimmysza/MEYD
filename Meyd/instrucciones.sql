@@ -31,7 +31,8 @@ el excel tiene referencia, descripcion, costo sin iva, costo con iva , precio
 
 INSERT INTO producto (producto, descripcion, id_categoria, id_subcategoria, costo, precio)
 
-- producto →  "referencia del producto" + "breve descripcion del producto"(monitor led, camara, Pantalla interactiva, pedestarl) + "intrebras" 
+- producto →  "referencia del producto" + "breve descripcion del producto"(monitor led, camara, Pantalla interactiva, pedestarl) + "GVS SECURITY"
+
 - descripcion → texto TAL CUAL lo enviaste (sin limpiar, sin corregir)
 
 - id_categoria →NULL (ya despues lo cambio)
